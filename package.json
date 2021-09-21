@@ -1,0 +1,39 @@
+{
+	"name": "blank-web-starter",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Playform/blank-web-starter.git"
+	},
+	"homepage": "https://github.com/Playform/blank-web-starter#readme",
+	"bugs": {
+		"url": "https://github.com/Playform/blank-web-starter/issues"
+	},
+	"author": "Nikola Hristov <nikola@playform.cloud>",
+	"license": "SEE LICENSE IN LICENSE",
+	"scripts": {
+		"build": "astro build",
+		"start": "astro dev"
+	},
+	"devDependencies": {
+		"@astrojs/sitemap": "0.2.6",
+		"@tailwindcss/aspect-ratio": "0.4.0",
+		"@tailwindcss/forms": "0.5.2",
+		"@tailwindcss/line-clamp": "0.4.0",
+		"@tailwindcss/typography": "0.5.4",
+		"astro": "1.0.0-beta.72",
+		"astro-compress": "0.0.12",
+		"astro-critters": "0.0.9",
+		"autoprefixer": "10.4.7",
+		"cssnano": "5.1.12",
+		"cssnano-preset-advanced": "5.3.8",
+		"firebase": "9.9.0",
+		"postcss": "8.4.14",
+		"postcss-combine-duplicated-selectors": "10.0.3",
+		"postcss-combine-media-query": "1.0.1",
+		"postcss-import": "14.1.0",
+		"postcss-reporter": "7.0.5",
+		"postcss-url": "10.1.3",
+		"tailwindcss": "3.1.6"
+	}
+}
