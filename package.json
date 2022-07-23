@@ -27,7 +27,7 @@
 		"autoprefixer": "10.4.7",
 		"cssnano": "5.1.12",
 		"cssnano-preset-advanced": "5.3.8",
-		"firebase": "9.9.0",
+		"firebase": "9.9.1",
 		"postcss": "8.4.14",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
