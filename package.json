@@ -1,6 +1,7 @@
 {
 	"name": "blank-web-starter",
 	"version": "0.0.3",
+	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Playform/blank-web-starter.git"
@@ -11,6 +12,10 @@
 	},
 	"author": "Nikola Hristov <nikola@playform.cloud>",
 	"license": "SEE LICENSE IN LICENSE",
+	"keywords": [
+		"astro",
+		"starter"
+	],
 	"scripts": {
 		"build": "astro build",
 		"start": "astro dev"
