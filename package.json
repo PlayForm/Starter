@@ -33,7 +33,7 @@
 		"cssnano": "5.1.12",
 		"cssnano-preset-advanced": "5.3.8",
 		"firebase": "9.9.2",
-		"postcss": "8.4.14",
+		"postcss": "8.4.16",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "14.1.0",
