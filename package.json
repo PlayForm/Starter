@@ -21,14 +21,14 @@
 		"start": "astro dev"
 	},
 	"devDependencies": {
-		"@astrojs/sitemap": "0.3.0",
+		"@astrojs/sitemap": "1.0.0",
 		"@tailwindcss/aspect-ratio": "0.4.0",
 		"@tailwindcss/forms": "0.5.2",
 		"@tailwindcss/line-clamp": "0.4.0",
 		"@tailwindcss/typography": "0.5.4",
-		"astro": "1.0.0-rc.8",
-		"astro-compress": "0.0.16",
-		"astro-critters": "0.0.10",
+		"astro": "1.0.0",
+		"astro-compress": "0.0.17",
+		"astro-critters": "0.0.11",
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.12",
 		"cssnano-preset-advanced": "5.3.8",
