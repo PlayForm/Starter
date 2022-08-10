@@ -27,7 +27,7 @@
 		"@tailwindcss/line-clamp": "0.4.0",
 		"@tailwindcss/typography": "0.5.4",
 		"astro": "1.0.0-rc.8",
-		"astro-compress": "0.0.16",
+		"astro-compress": "0.0.17",
 		"astro-critters": "0.0.10",
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.12",
