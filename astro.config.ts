@@ -5,5 +5,11 @@ import critters from "astro-critters";
 export default /** @type {import('astro').AstroUserConfig} */ {
 	// TODO Place your site URL here
 	// site: "",
-	integrations: [sitemap(), critters(), compress()],
+	integrations: [
+		sitemap(),
+		critters(),
+		compress({
+			logger: 1,
+		}),
+	],
 };
