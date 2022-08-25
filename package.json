@@ -11,7 +11,7 @@
 		"url": "https://github.com/Playform/blank-web-starter/issues"
 	},
 	"author": "Nikola Hristov <nikola@playform.cloud>",
-	"license": "SEE LICENSE IN LICENSE",
+	"license": "MIT",
 	"keywords": [
 		"astro",
 		"starter"
