@@ -1,17 +1,19 @@
-import sitemap from "@astrojs/sitemap";
-import critters from "astro-critters";
-import compress from "astro-compress";
-
 import type { AstroUserConfig } from "astro";
+import compress from "astro-compress";
+import critters from "astro-critters";
 
-export default {
-	// TODO Place your site URL here
-	// site: "",
-	integrations: [
-		sitemap(),
-		critters(),
-		compress({
-			logger: 1,
-		}),
-	],
-} as AstroUserConfig;
+import sitemap from "@astrojs/sitemap";
+
+export default (): AstroUserConfig => {
+	return {
+		// TODO Place your site URL here
+		// site: "",
+		integrations: [
+			sitemap(),
+			critters(),
+			compress({
+				logger: 1,
+			}),
+		],
+	};
+};
