@@ -4,13 +4,13 @@
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Playform/blank-web-starter.git"
+		"url": "https://github.com/NikolaRHristov/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/Playform/blank-web-starter#readme",
+	"homepage": "https://github.com/NikolaRHristov/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/blank-web-starter/issues"
+		"url": "https://github.com/NikolaRHristov/astro-starter-template/issues"
 	},
-	"author": "Nikola Hristov <nikola@playform.cloud>",
+	"author": "Nikola Hristov <nikola@lightrix.dev>",
 	"license": "MIT",
 	"keywords": [
 		"astro",
@@ -22,8 +22,8 @@
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "1.0.0",
-		"@playform/config": "0.0.3",
-		"@playform/scripts": "0.0.5",
+		"@nikolarhristov/config": "0.0.3",
+		"@nikolarhristov/scripts": "0.0.5",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",

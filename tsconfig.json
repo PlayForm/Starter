@@ -14,5 +14,5 @@
 			"astro/env"
 		]
 	},
-	"extends": "@playform/config/tsconfig.json"
+	"extends": "@nikolarhristov/config/tsconfig.json"
 }
