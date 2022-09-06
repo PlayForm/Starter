@@ -1,21 +1,17 @@
 {
-	"name": "blank-web-starter",
-	"version": "0.0.4",
+	"name": "astro-starter-template",
+	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NikolaRHristov/astro-starter-template.git"
+		"url": "https://github.com/lightrix/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/NikolaRHristov/astro-starter-template#readme",
+	"homepage": "https://github.com/lightrix/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/NikolaRHristov/astro-starter-template/issues"
+		"url": "https://github.com/lightrix/astro-starter-template/issues"
 	},
-	"author": "nikolarhristov",
+	"author": "lightrix",
 	"license": "MIT",
-	"keywords": [
-		"astro",
-		"starter"
-	],
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -28,8 +24,8 @@
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",
 		"@tailwindcss/typography": "0.5.7",
-		"astro": "1.1.5",
-		"astro-compress": "1.0.6",
+		"astro": "1.1.6",
+		"astro-compress": "1.0.7",
 		"astro-critters": "1.0.3",
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.13",
