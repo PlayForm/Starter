@@ -26,7 +26,7 @@
 		"@tailwindcss/typography": "0.5.7",
 		"astro": "1.1.6",
 		"astro-compress": "1.0.7",
-		"astro-critters": "1.0.3",
+		"astro-critters": "1.0.4",
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.13",
 		"cssnano-preset-advanced": "5.3.8",
