@@ -2,17 +2,10 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@components/*": [
-				"src/components/*"
-			],
-			"@layouts/*": [
-				"src/layouts/*"
-			]
+			"@components/*": ["src/components/*"],
+			"@layouts/*": ["src/layouts/*"]
 		},
-		"types": [
-			"astro/client",
-			"astro/env"
-		]
+		"types": ["astro/client", "astro/env"]
 	},
 	"extends": "@playform/config/tsconfig.json"
 }
