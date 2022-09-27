@@ -19,9 +19,3 @@ img {
 		select-none
 		outline-none;
 }
-
-*,
-*:before,
-*:after {
-	--tw-ring-inset: /*!*/ /*!*/ ;
-}
