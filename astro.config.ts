@@ -4,7 +4,7 @@ import critters from "astro-critters";
 
 import sitemap from "@astrojs/sitemap";
 
-export default {
+export default (): AstroUserConfig => ({
 	// TODO Place your site URL here
 	// site: "",
 	integrations: [
@@ -14,4 +14,4 @@ export default {
 			logger: 1,
 		}),
 	],
-} satisfies AstroUserConfig;
+});
