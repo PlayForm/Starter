@@ -22,6 +22,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "1.0.0",
+		"@lightrix/config": "0.0.2",
 		"@playform/config": "0.0.3",
 		"@playform/scripts": "0.0.5",
 		"@tailwindcss/aspect-ratio": "0.4.2",
