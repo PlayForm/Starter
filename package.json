@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "1.0.0",
-		"@lightrix/config": "0.0.3",
+		"@lightrix/config": "0.0.4",
 		"@lightrix/scripts": "0.0.7",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
