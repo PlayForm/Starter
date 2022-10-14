@@ -6,5 +6,6 @@
 			"@layouts/*": ["src/layouts/*"]
 		},
 		"types": ["astro/client", "astro/env"]
-	}
+	},
+	"extends": "@lightrix/config/tsconfig.json"
 }
