@@ -30,8 +30,11 @@ jobs:
             - uses: actions/setup-node@v3.5.1
               with:
                   node-version: ${{ matrix.node-version }}
-                  cache: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-                  cache-dependency-path: './pnpm-lock.yaml'
+                  cache: "pnpm"
+                  key:
+                      ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml')
+                      }}
+                  cache-dependency-path: "./pnpm-lock.yaml"
             - run: pnpm install
               working-directory: .
             - run: pnpm run build
