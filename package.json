@@ -1,4 +1,3 @@
-
 {
 	"name": "intakenomnom-web",
 	"version": "0.0.1",
@@ -17,7 +16,6 @@
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "1.0.0",
-		"@lightrix/config": "0.0.3",
 		"@lightrix/scripts": "0.0.5",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
@@ -37,5 +35,8 @@
 		"postcss-reporter": "7.0.5",
 		"postcss-url": "10.1.3",
 		"tailwindcss": "3.1.8"
+	},
+	"dependencies": {
+		"@lightrix/config": "workspace:0.0.3"
 	}
 }
