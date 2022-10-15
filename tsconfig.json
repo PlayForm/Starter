@@ -6,6 +6,5 @@
 			"@layouts/*": ["src/layouts/*"]
 		},
 		"types": ["astro/client", "astro/env"]
-	},
-	"extends": "@playform/config/tsconfig.json"
+	}
 }
