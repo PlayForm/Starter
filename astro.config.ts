@@ -1,10 +1,9 @@
-import type { AstroUserConfig } from "astro";
 import compress from "astro-compress";
 import critters from "astro-critters";
 
 import sitemap from "@astrojs/sitemap";
 
-export default (): AstroUserConfig => ({
+export default {
 	// TODO Place your site URL here
 	// site: "",
 	integrations: [
@@ -14,4 +13,4 @@ export default (): AstroUserConfig => ({
 			logger: 1,
 		}),
 	],
-});
+}
