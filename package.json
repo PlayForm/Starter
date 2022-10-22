@@ -1,5 +1,5 @@
 {
-	"name": "astro-starter-template",
+	"name": "@yesmaintenance/astro-starter-template",
 	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
