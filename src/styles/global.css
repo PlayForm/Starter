@@ -1,0 +1,21 @@
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	@apply antialiased
+		dark:bg-black
+		dark:text-white
+		sm:subpixel-antialiased;
+}
+
+img {
+	@apply inline-block
+		select-none
+		outline-none;
+}

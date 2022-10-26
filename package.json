@@ -1,0 +1,43 @@
+{
+	"name": "nikolahristov-web",
+	"version": "0.0.1",
+	"description": "📄 Starter template for AstroJS.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lightrix/astro-starter-template.git"
+	},
+	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"bugs": {
+		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+	},
+	"keywords": [
+		"astro",
+		"starter"
+	],
+	"scripts": {
+		"build": "astro check && astro build",
+		"start": "astro dev"
+	},
+	"devDependencies": {
+		"@astrojs/sitemap": "1.0.0",
+		"@lightrix/config": "0.0.6",
+		"@tailwindcss/aspect-ratio": "0.4.2",
+		"@tailwindcss/forms": "0.5.3",
+		"@tailwindcss/line-clamp": "0.4.2",
+		"@tailwindcss/typography": "0.5.7",
+		"astro": "1.5.3",
+		"astro-compress": "1.0.12",
+		"astro-critters": "1.0.5",
+		"autoprefixer": "10.4.12",
+		"cssnano": "5.1.13",
+		"cssnano-preset-advanced": "5.3.8",
+		"firebase": "9.12.1",
+		"postcss": "8.4.18",
+		"postcss-combine-duplicated-selectors": "10.0.3",
+		"postcss-combine-media-query": "1.0.1",
+		"postcss-import": "15.0.0",
+		"postcss-reporter": "7.0.5",
+		"postcss-url": "10.1.3",
+		"tailwindcss": "3.2.1"
+	}
+}
