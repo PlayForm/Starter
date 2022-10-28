@@ -28,7 +28,7 @@
 		"astro": "1.6.0",
 		"astro-compress": "1.1.1",
 		"astro-critters": "1.1.0",
-		"autoprefixer": "10.4.12",
+		"autoprefixer": "10.4.13",
 		"cssnano": "5.1.13",
 		"cssnano-preset-advanced": "5.3.8",
 		"firebase": "9.13.0",
