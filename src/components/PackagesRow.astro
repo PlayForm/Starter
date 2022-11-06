@@ -1,0 +1,139 @@
+---
+import chunks from "@lib/chunks.js";
+import request from "@lib/request.js";
+
+const STYLE = "&color=black&logoColor=white&labelColor=black&logoWidth=15";
+
+const { packages } = Astro.props;
+
+interface Badges {
+	img: string;
+	link: string;
+}
+
+interface PackagesRowItem {
+	name: string;
+	link: string;
+	github: string;
+	description: string;
+	badges: Set<Badges>;
+}
+
+let newPackages = new Set<PackagesRowItem>();
+
+for (const _package of packages) {
+	if (_package.match(/npm:/)) {
+		const packageScopeName = _package.split(":")[1];
+		const packageJson = await (
+			await fetch(`https://registry.npmjs.org/${packageScopeName}`)
+		).json();
+
+		const githubOwnerRepo = packageJson.homepage
+			.replace(/(git\+)?http?s:\/\/github.com\//, "")
+			.replace("#readme", "");
+
+		newPackages.add({
+			link: packageJson.homepage,
+			name: packageJson.name,
+			github: githubOwnerRepo,
+			description: packageJson.description,
+			badges: new Set([
+				{
+					img: `https://img.shields.io/github/workflow/status/${githubOwnerRepo}/Node?label=Build&logo=node.js${STYLE}`,
+					link: `${packageJson.homepage}/actions/workflows/node.yml`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm${STYLE}`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot${STYLE}`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm${STYLE}`,
+				},
+			]),
+		});
+	}
+
+	if (_package.match(/github:/)) {
+		const githubOwnerRepo = _package.split(":")[1];
+		const githubOwner = githubOwnerRepo.split("/")[0];
+		const githubRepo = githubOwnerRepo.split("/")[1];
+
+		const githubJson = (
+			await request(`GET /repos/${githubOwnerRepo}`, {
+				owner: githubOwner,
+				repo: githubRepo,
+			})
+		).data;
+
+		newPackages.add({
+			link: githubJson.html_url,
+			name: githubJson.name,
+			github: githubJson.full_name,
+			description: githubJson.description,
+			badges: new Set([
+				{
+					img: `https://img.shields.io/github/workflow/status/${githubJson.full_name}/Node?label=Build&logo=node.js${STYLE}`,
+					link: `${githubJson.homepage}/actions/workflows/node.yml`,
+				},
+				{
+					link: `https://npmjs.org/${githubJson.name}`,
+					img: `https://img.shields.io/npm/v/${githubJson.name}?label=version&logo=npm${STYLE}`,
+				},
+				{
+					link: `https://npmjs.org/${githubJson.name}`,
+					img: `https://img.shields.io/librariesio/release/npm/${githubJson.name}?label=dependencies&logo=dependabot${STYLE}`,
+				},
+				{
+					link: `https://npmjs.org/${githubJson.name}`,
+					img: `https://img.shields.io/npm/dw/${githubJson.name}?label=downloads&logo=npm${STYLE}`,
+				},
+			]),
+		});
+	}
+}
+---
+
+{
+	[...chunks(Array.from(newPackages), 2)].map((packageRow) => (
+		<>
+			<tr>
+				{packageRow.map((_package) => (
+					<>
+						<td valign="middle">
+							{Array.from(_package.badges).map((badge) => (
+								<>
+									<a href={badge.link}>
+										<img src={badge.img} />
+									</a>
+									<br />
+								</>
+							))}
+						</td>
+						<td valign="middle">
+							<a href={_package.link}>
+								<img
+									src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${STYLE}`}
+								/>
+							</a>
+							<br />
+							<b>
+								<a href={_package.link}>{_package.name}</a>
+								<br />
+								<p
+									set:html={_package.description
+										?.split(".")
+										?.join(".<br />")}
+								/>
+							</b>
+						</td>
+					</>
+				))}
+			</tr>
+		</>
+	))
+}
