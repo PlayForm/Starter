@@ -85,41 +85,51 @@ for (const _package of packages) {
 	[...chunks(Array.from(newPackages), 2)].map((packageRow) => (
 		<>
 			<tr>
-				{packageRow.map((_package) => (
-					<>
-						{_package.badges.size > 1 ? (
-							<td valign="middle">
-								{Array.from(_package.badges).map((badge) => (
-									<>
-										<a href={badge.link}>
-											<img src={badge.img} />
-										</a>
-										<br />
-									</>
-								))}
-							</td>
-						) : (
-							""
-						)}
-						<td valign="middle">
-							<a href={_package.link}>
-								<img
-									src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${STYLE}`}
-								/>
-							</a>
-							<br />
-							<b>
-								<a href={_package.link}>{_package.name}</a>
+				{packageRow.map((_package) => {
+					let colspan = packageRow.length > 1 ? 2 : 4;
+					colspan -= _package.badges.size >= 1 ? 1 : 0;
+
+					return (
+						<>
+							{_package.badges.size >= 1 ? (
+								<td valign="top" colspan={colspan}>
+									<br />
+									{Array.from(_package.badges).map(
+										(badge) => (
+											<>
+												<a href={badge.link}>
+													<img src={badge.img} />
+												</a>
+												<br />
+											</>
+										)
+									)}
+									<br />
+								</td>
+							) : (
+								""
+							)}
+							<td valign="top" colspan={colspan}>
 								<br />
-								<p
+								<a href={_package.link}>
+									<img
+										src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${STYLE}`}
+									/>
+								</a>
+								<br />
+								<a href={_package.link}>
+									<b>{_package.name}</b>
+								</a>
+								<br />
+								<b
 									set:html={_package.description
 										?.split(".")
 										?.join(".<br />")}
 								/>
-							</b>
-						</td>
-					</>
-				))}
+							</td>
+						</>
+					);
+				})}
 			</tr>
 		</>
 	))
