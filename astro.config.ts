@@ -1,10 +1,10 @@
 import compress from "astro-compress";
 import critters from "astro-critters";
-
 import sitemap from "@astrojs/sitemap";
 
 export default {
-	site: "https://nikolahristov.tech",
+	// TODO Place your site URL here
+	// site: "",
 	integrations: [
 		sitemap(),
 		critters(),
