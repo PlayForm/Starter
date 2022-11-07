@@ -75,24 +75,7 @@ for (const _package of packages) {
 			name: githubJson.name,
 			github: githubJson.full_name,
 			description: githubJson.description,
-			badges: new Set([
-				{
-					img: `https://img.shields.io/github/workflow/status/${githubJson.full_name}/Node?label=Build&logo=node.js${STYLE}`,
-					link: `${githubJson.homepage}/actions/workflows/node.yml`,
-				},
-				{
-					link: `https://npmjs.org/${githubJson.name}`,
-					img: `https://img.shields.io/npm/v/${githubJson.name}?label=version&logo=npm${STYLE}`,
-				},
-				{
-					link: `https://npmjs.org/${githubJson.name}`,
-					img: `https://img.shields.io/librariesio/release/npm/${githubJson.name}?label=dependencies&logo=dependabot${STYLE}`,
-				},
-				{
-					link: `https://npmjs.org/${githubJson.name}`,
-					img: `https://img.shields.io/npm/dw/${githubJson.name}?label=downloads&logo=npm${STYLE}`,
-				},
-			]),
+			badges: new Set(),
 		});
 	}
 }
@@ -104,16 +87,20 @@ for (const _package of packages) {
 			<tr>
 				{packageRow.map((_package) => (
 					<>
-						<td valign="middle">
-							{Array.from(_package.badges).map((badge) => (
-								<>
-									<a href={badge.link}>
-										<img src={badge.img} />
-									</a>
-									<br />
-								</>
-							))}
-						</td>
+						{_package.badges.size > 1 ? (
+							<td valign="middle">
+								{Array.from(_package.badges).map((badge) => (
+									<>
+										<a href={badge.link}>
+											<img src={badge.img} />
+										</a>
+										<br />
+									</>
+								))}
+							</td>
+						) : (
+							""
+						)}
 						<td valign="middle">
 							<a href={_package.link}>
 								<img
