@@ -3,8 +3,7 @@ import critters from "astro-critters";
 import sitemap from "@astrojs/sitemap";
 
 export default {
-	// TODO Place your site URL here
-	// site: "",
+	site: "https://nikolahristov.tech",
 	integrations: [
 		sitemap(),
 		critters(),
