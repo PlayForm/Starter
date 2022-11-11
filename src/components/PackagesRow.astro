@@ -41,20 +41,20 @@ for (const _package of packages) {
 			description: packageJson.description,
 			badges: new Set([
 				{
-					img: `https://img.shields.io/github/workflow/status/${githubOwnerRepo}/Node?label=Build&logo=node.js${DARK_STYLE}`,
+					img: `https://img.shields.io/github/workflow/status/${githubOwnerRepo}/Node?label=Build&logo=node.js`,
 					link: `${packageJson.homepage}/actions/workflows/node.yml`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm${DARK_STYLE}`,
+					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot${DARK_STYLE}`,
+					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm${DARK_STYLE}`,
+					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm`,
 				},
 			]),
 		});
@@ -100,7 +100,20 @@ for (const _package of packages) {
 										(badge) => (
 											<>
 												<a href={badge.link}>
-													<img src={badge.img} />
+													<picture>
+														<source
+															media="(prefers-color-scheme: dark)"
+															srcset={`${badge.img}${LIGHT_STYLE}`}
+														/>
+														<source
+															media="(prefers-color-scheme: light)"
+															srcset={`${badge.img}${DARK_STYLE}`}
+														/>
+														<img
+															alt="Astro"
+															src={`${badge.img}${LIGHT_STYLE}`}
+														/>
+													</picture>
 												</a>
 												<br />
 											</>
@@ -114,9 +127,20 @@ for (const _package of packages) {
 							<td valign="top" colspan={colspan}>
 								<br />
 								<a href={_package.link}>
-									<img
-										src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
-									/>
+									<picture>
+										<source
+											media="(prefers-color-scheme: dark)"
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
+										/>
+										<source
+											media="(prefers-color-scheme: light)"
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
+										/>
+										<img
+											alt="Astro"
+											src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
+										/>
+									</picture>
 								</a>
 								<br />
 								<a href={_package.link}>
