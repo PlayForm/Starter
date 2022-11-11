@@ -2,7 +2,9 @@
 import chunks from "@lib/chunks.js";
 import request from "@lib/request.js";
 
-const STYLE = "&color=black&logoColor=white&labelColor=black&logoWidth=15";
+const DARK_STYLE = "&color=black&logoColor=white&labelColor=black&logoWidth=15";
+const LIGHT_STYLE =
+	"&color=white&logoColor=black&labelColor=white&logoWidth=15";
 
 const { packages } = Astro.props;
 
@@ -39,20 +41,20 @@ for (const _package of packages) {
 			description: packageJson.description,
 			badges: new Set([
 				{
-					img: `https://img.shields.io/github/workflow/status/${githubOwnerRepo}/Node?label=Build&logo=node.js${STYLE}`,
+					img: `https://img.shields.io/github/workflow/status/${githubOwnerRepo}/Node?label=Build&logo=node.js${DARK_STYLE}`,
 					link: `${packageJson.homepage}/actions/workflows/node.yml`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm${STYLE}`,
+					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm${DARK_STYLE}`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot${STYLE}`,
+					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot${DARK_STYLE}`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
-					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm${STYLE}`,
+					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm${DARK_STYLE}`,
 				},
 			]),
 		});
@@ -113,7 +115,7 @@ for (const _package of packages) {
 								<br />
 								<a href={_package.link}>
 									<img
-										src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${STYLE}`}
+										src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
 									/>
 								</a>
 								<br />
