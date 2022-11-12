@@ -62,13 +62,14 @@ const { title = "", description = "" } = Astro.props;
 	</head>
 
 	<body class="flex flex-grow flex-col">
-		<div id="nikolahristov-web" class="flex grow flex-col">
-			<div id="main" class="grow">
+		<div id="nikolahristov-web">
+			<div class="grow">
 				<slot />
 			</div>
-			<div id="footer" class="shrink">
-				<Footer />
-			</div>
 		</div>
+		<a
+			class="absolute top-0 left-0 hidden"
+			rel="me"
+			href="https://mastodon.social/@nikolahristov"></a>
 	</body>
 </html>
