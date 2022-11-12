@@ -103,15 +103,15 @@ for (const _package of packages) {
 													<picture>
 														<source
 															media="(prefers-color-scheme: dark)"
-															srcset={`${badge.img}${LIGHT_STYLE}`}
+															srcset={`${badge.img}${DARK_STYLE}`}
 														/>
 														<source
 															media="(prefers-color-scheme: light)"
-															srcset={`${badge.img}${DARK_STYLE}`}
+															srcset={`${badge.img}${LIGHT_STYLE}`}
 														/>
 														<img
 															alt="Astro"
-															src={`${badge.img}${LIGHT_STYLE}`}
+															src={`${badge.img}${DARK_STYLE}`}
 														/>
 													</picture>
 												</a>
@@ -130,15 +130,15 @@ for (const _package of packages) {
 									<picture>
 										<source
 											media="(prefers-color-scheme: dark)"
-											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
 										/>
 										<source
 											media="(prefers-color-scheme: light)"
-											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
 										/>
 										<img
 											alt="Astro"
-											src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
+											src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
 										/>
 									</picture>
 								</a>
