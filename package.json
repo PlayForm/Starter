@@ -2,7 +2,6 @@
 	"name": "@yesmaintenance/astro-starter-template",
 	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Lightrix/astro-starter-template.git"
@@ -11,6 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/Lightrix/astro-starter-template/issues"
 	},
+	"license": "MIT",
 	"private": false,
 	"keywords": [
 		"astro",
