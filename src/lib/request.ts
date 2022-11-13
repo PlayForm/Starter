@@ -9,8 +9,10 @@ const octokit = new Octokit({
 
 const request = async (
 	where: string,
-	_with: {} = {},
+	// rome-ignore lint:
+	_with: any = {},
 	type: string = "octokit"
+	// rome-ignore lint:
 ): Promise<OctokitResponse<any, number> | any> => {
 	try {
 		console.log(`Successfully ${where}`);
@@ -19,7 +21,7 @@ const request = async (
 			case "octokit":
 				return await octokit.request(where, _with);
 		}
-	} catch (e) {
+	} catch (_e) {
 		console.log(`Could not ${where}`);
 	}
 };
