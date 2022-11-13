@@ -2,7 +2,6 @@
 	"name": "blank-web-starter",
 	"version": "0.0.4",
 	"description": "📄 Starter template for AstroJS.",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Playform/blank-web-starter.git"
@@ -11,6 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/Playform/blank-web-starter/issues"
 	},
+	"license": "MIT",
 	"private": false,
 	"keywords": [
 		"astro",
