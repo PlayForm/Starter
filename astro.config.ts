@@ -7,10 +7,5 @@ import sitemap from "@astrojs/sitemap";
 export default {
 	// TODO Place your site URL here
 	// site: "",
-	integrations: [
-		sitemap(),
-		critters(),
-		rome(),
-		compress(),
-	],
+	integrations: [sitemap(), critters(), rome(), compress()],
 };
