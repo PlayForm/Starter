@@ -4,7 +4,7 @@ import type { OctokitResponse } from "@octokit/types";
 import env from "@lib/env.js";
 
 const octokit = new Octokit({
-	auth: env.GITHUB_AUTH_TOKEN,
+	auth: env.GH_AUTH_TOKEN,
 });
 
 const request = async (

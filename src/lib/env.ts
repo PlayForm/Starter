@@ -5,6 +5,6 @@ const env = dotenv.config();
 
 export default z
 	.object({
-		GITHUB_AUTH_TOKEN: z.string().default(""),
+		GH_AUTH_TOKEN: z.string().default(""),
 	})
 	.parse(env.error ? {} : env.parsed);
