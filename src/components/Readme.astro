@@ -3,6 +3,8 @@ import PackagesRow from "@components/PackagesRow.astro";
 
 const packages = new Map<string, Set<string>>();
 
+packages.set("projects", new Set<string>(["npm:@nikolarhristov/pipeline"]));
+
 packages.set(
 	"astro",
 	new Set<string>([
@@ -65,6 +67,15 @@ packages.set(
 			</picture>
 		</a>
 	</h1>
+
+	<table>
+		<tr>
+			<td colspan="4">
+				<h2>🔥 Projects</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("projects")} />
+	</table>
 
 	<table>
 		<tr>
