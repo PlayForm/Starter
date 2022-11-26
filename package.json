@@ -30,7 +30,7 @@
 		"astro": "1.6.11",
 		"astro-compress": "1.1.11",
 		"astro-critters": "1.1.11",
-		"astro-rome": "0.0.6",
+		"astro-rome": "0.0.7",
 		"autoprefixer": "10.4.13",
 		"cssnano": "5.1.14",
 		"cssnano-preset-advanced": "5.3.9",
