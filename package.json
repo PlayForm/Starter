@@ -52,6 +52,6 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@astrojs/prefetch": "^0.1.1"
+		"@astrojs/prefetch": "0.1.1"
 	}
 }
