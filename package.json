@@ -29,7 +29,7 @@
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",
 		"@tailwindcss/typography": "0.5.8",
-		"astro": "1.6.12",
+		"astro": "1.6.13",
 		"astro-compress": "1.1.18",
 		"astro-critters": "1.1.18",
 		"astro-rome": "0.1.0",
