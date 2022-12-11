@@ -9,5 +9,5 @@ import prefetch from "@astrojs/prefetch";
 export default defineConfig({
 	// TODO Place your site URL here
 	// site: "",
-	integrations: [sitemap(), critters(), prefetch(), rome(), compress()],
+	integrations: [sitemap(), critters({ logger: 1 }), prefetch(), rome({ logger: 1 }), compress({ logger: 1 })],
 });
