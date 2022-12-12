@@ -9,10 +9,10 @@ const octokit = new Octokit({
 
 const request = async (
 	where: string,
-	// rome-ignore lint:
+	// rome-ignore lint/suspicious/noExplicitAny:
 	_with: any = {},
 	type: string = "octokit"
-	// rome-ignore lint:
+	// rome-ignore lint/suspicious/noExplicitAny:
 ): Promise<OctokitResponse<any, number> | any> => {
 	try {
 		console.log(`Successfully ${where}`);
