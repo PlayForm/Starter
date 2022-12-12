@@ -39,7 +39,7 @@
 		"dotenv": "16.0.3",
 		"firebase": "9.15.0",
 		"github-markdown-css": "5.1.0",
-		"postcss": "8.4.19",
+		"postcss": "8.4.20",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "15.1.0",
