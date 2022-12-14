@@ -1,13 +1,24 @@
 ---
 import PackagesRow from "@components/PackagesRow.astro";
 
-const packages = new Map<string, Set<string>>();
+export type packageCell = `${packageCellType}:${string}`;
+export type packageCellType = "npm" | "github";
 
-packages.set("projects", new Set<string>(["npm:@nikolarhristov/pipeline"]));
+export type packagesArray = Map<string, Set<packageCell>>;
+
+const packages: packagesArray = new Map<string, Set<packageCell>>();
+
+packages.set(
+	"projects",
+	new Set<packageCell>([
+		"npm:@nikolarhristov/pipeline",
+		"github:nikolaxhristov/bench",
+	])
+);
 
 packages.set(
 	"astro",
-	new Set<string>([
+	new Set<packageCell>([
 		"npm:astro-compress",
 		"npm:astro-convert",
 		"npm:astro-critters",
@@ -23,12 +34,12 @@ packages.set(
 
 packages.set(
 	"npm",
-	new Set<string>(["npm:@lightrix/config", "npm:@lightrix/scripts"])
+	new Set<packageCell>(["npm:@lightrix/config", "npm:@lightrix/scripts"])
 );
 
 packages.set(
 	"github",
-	new Set<string>([
+	new Set<packageCell>([
 		"npm:@yesmaintenance/scripts",
 		"npm:github-history-slider",
 	])
@@ -36,7 +47,7 @@ packages.set(
 
 packages.set(
 	"obs",
-	new Set<string>([
+	new Set<packageCell>([
 		"github:nikolaxhristov/camera-tools",
 		"github:nikolaxhristov/spotify-now-playing",
 		"github:nikolaxhristov/obs",
@@ -46,7 +57,7 @@ packages.set(
 
 packages.set(
 	"dotfiles",
-	new Set<string>([
+	new Set<packageCell>([
 		"github:nikolaxhristov/dot",
 		"github:nikolaxhristov/nvim",
 		"github:nikolaxhristov/powershell",
