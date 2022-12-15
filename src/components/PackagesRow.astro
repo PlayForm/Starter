@@ -35,15 +35,14 @@ for (const _package of packages) {
 			.replace("#readme", "");
 
 		newPackages.add({
-			link: packageJson.homepage
-				.replace("#readme", ""),
+			link: `https://github.com/${githubOwnerRepo}`,
 			name: packageJson.name,
 			github: githubOwnerRepo,
 			description: packageJson.description,
 			badges: new Set([
 				{
 					img: `https://img.shields.io/github/actions/workflow/status/${githubOwnerRepo}/node.yml?branch=main&label=Build&logo=node.js`,
-					link: `${packageJson.homepage}/actions/workflows/node.yml`,
+					link: `https://github.com/${githubOwnerRepo}/actions/workflows/node.yml`,
 				},
 				{
 					link: `https://npmjs.org/${packageJson.name}`,
