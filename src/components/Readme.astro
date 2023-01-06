@@ -1,12 +1,8 @@
 ---
 import PackagesRow from "@components/PackagesRow.astro";
+import type { packageCell } from "../options/packageCell";
 
-export type packageCell = `${packageCellType}:${string}`;
-export type packageCellType = "npm" | "github";
-
-export type packagesArray = Map<string, Set<packageCell>>;
-
-const packages: packagesArray = new Map<string, Set<packageCell>>();
+const packages = Astro.props["packages"] ?? new Map<string, Set<packageCell>>();
 
 packages.set(
 	"projects",
