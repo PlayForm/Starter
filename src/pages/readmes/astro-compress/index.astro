@@ -6,6 +6,8 @@ const content = await fetch(
 	"https://raw.githubusercontent.com/astro-community/astro-compress/main/README.md"
 );
 
+console.log(content);
+
 const packages = new Map<string, Set<packageCell>>();
 
 packages.set(
