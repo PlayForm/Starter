@@ -2,11 +2,11 @@
 import PackagesRow from "@components/PackagesRow.astro";
 import type { packageCell } from "../../../options/packageCell";
 
-const content = await fetch(
-	"https://raw.githubusercontent.com/astro-community/astro-compress/main/README.md"
-);
-
-console.log(content);
+const content = await (
+	await fetch(
+		"https://raw.githubusercontent.com/astro-community/astro-compress/main/README.md"
+	)
+).text();
 
 const packages = new Map<string, Set<packageCell>>();
 
