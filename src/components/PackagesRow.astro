@@ -70,7 +70,7 @@ for (const _package of packages) {
 				owner: githubOwner,
 				repo: githubRepo,
 			})
-		).data;
+		)?.data;
 
 		newPackages.add({
 			link: githubJson.html_url,
