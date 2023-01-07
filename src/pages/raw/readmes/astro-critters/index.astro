@@ -1,12 +1,6 @@
 ---
 import PackagesRow from "@components/PackagesRow.astro";
-import type { packageCell } from "../../../options/packageCell";
-
-const content = await (
-	await fetch(
-		"https://raw.githubusercontent.com/astro-community/astro-critters/main/README.md"
-	)
-).text();
+import type { packageCell } from "../../../../options/packageCell";
 
 const packages = new Map<string, Set<packageCell>>();
 
@@ -39,5 +33,4 @@ packages.set(
 		</tr>
 		<PackagesRow packages={packages.get("astro-critters")} />
 	</table>
-	<Fragment set:html={content} />
 </>
