@@ -7,4 +7,4 @@ export default z
 	.object({
 		GH_AUTH_TOKEN: z.string().default(""),
 	})
-	.parse(env.error ? {} : env.parsed);
+	.parse(env.error ? {} : process.env);
