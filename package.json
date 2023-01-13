@@ -25,7 +25,7 @@
 		"@astrojs/sitemap": "1.0.0",
 		"@lightrix/config": "0.0.7",
 		"@octokit/core": "4.1.0",
-		"@octokit/types": "8.1.0",
+		"@octokit/types": "8.1.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",
