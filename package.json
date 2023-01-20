@@ -31,7 +31,7 @@
 		"autoprefixer": "10.4.13",
 		"cssnano": "5.1.14",
 		"cssnano-preset-advanced": "5.3.9",
-		"firebase": "9.15.0",
+		"firebase": "9.16.0",
 		"postcss": "8.4.21",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
