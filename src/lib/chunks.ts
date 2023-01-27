@@ -3,3 +3,5 @@ export default function* <T>(arr: T[], n: number): Generator<T[], void> {
 		yield arr.slice(i, i + n);
 	}
 }
+
+
