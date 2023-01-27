@@ -1,10 +1,10 @@
 import { defineConfig } from "astro/config";
 
+import prefetch from "@astrojs/prefetch";
+import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import rome from "astro-rome";
-import prefetch from "@astrojs/prefetch";
 import critters from "astro-critters";
-import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
 	site: "https://blackrainbow.ai",
