@@ -38,6 +38,7 @@
 		"cssnano-preset-advanced": "5.3.9",
 		"dotenv": "16.0.3",
 		"firebase": "9.16.0",
+		"github-markdown-css": "5.1.0",
 		"postcss": "8.4.21",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
