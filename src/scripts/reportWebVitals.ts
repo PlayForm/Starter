@@ -1,6 +1,7 @@
-import { ReportHandler } from "web-vitals";
+// @ts-ignore
+import type { CLSReportCallback } from "web-vitals";
 
-export default (onPerfEntry?: ReportHandler) => {
+export default (onPerfEntry?: CLSReportCallback) => {
 	if (onPerfEntry && onPerfEntry instanceof Function) {
 		import("web-vitals").then(
 			({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
