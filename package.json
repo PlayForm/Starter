@@ -30,7 +30,7 @@
 		"@tailwindcss/typography": "0.5.9",
 		"astro": "2.0.9",
 		"astro-compress": "1.1.31",
-		"astro-critters": "1.1.28",
+		"astro-critters": "1.1.29",
 		"astro-rome": "0.1.7",
 		"autoprefixer": "10.4.13",
 		"cssnano": "5.1.14",
