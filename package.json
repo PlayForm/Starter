@@ -1,14 +1,14 @@
 {
 	"name": "blackrainbow-web",
 	"version": "0.0.1",
-	"description": "📄 Starter template for AstroJS.",
+	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lightrix/astro-starter-template.git"
+		"url": "https://github.com/blackrainbowai/blackrainbow.ai.git"
 	},
-	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/blackrainbowai/blackrainbow.ai#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+		"url": "https://github.com/blackrainbowai/blackrainbow.ai/issues"
 	},
 	"license": "MIT",
 	"private": false,
