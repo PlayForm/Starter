@@ -4,11 +4,11 @@
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lightrix/astro-starter-template.git"
+		"url": "https://github.com/imagewtf/image.wtf.git"
 	},
-	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/imagewtf/image.wtf#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+		"url": "https://github.com/imagewtf/image.wtf/issues"
 	},
 	"license": "MIT",
 	"private": true,
