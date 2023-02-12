@@ -1,7 +1,6 @@
 {
 	"name": "blackrainbow-web",
 	"version": "0.0.1",
-	"description": "",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/blackrainbowai/blackrainbow.ai.git"
