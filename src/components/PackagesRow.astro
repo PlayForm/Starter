@@ -73,10 +73,10 @@ for (const _package of packages) {
 		)?.data;
 
 		newPackages.add({
-			link: githubJson.html_url ?? "",
-			name: githubJson.name ?? "",
-			github: githubJson.full_name ?? "",
-			description: githubJson.description ?? "",
+			link: githubJson?.html_url ?? "",
+			name: githubJson?.name ?? "",
+			github: githubJson?.full_name ?? "",
+			description: githubJson?.description ?? "",
 			badges: new Set(),
 		});
 	}
