@@ -35,7 +35,7 @@
 		"astrojs-service-worker": "0.0.9",
 		"autoprefixer": "10.4.13",
 		"cssnano": "5.1.15",
-		"cssnano-preset-advanced": "5.3.9",
+		"cssnano-preset-advanced": "5.3.10",
 		"firebase": "9.17.1",
 		"postcss": "8.4.21",
 		"postcss-combine-duplicated-selectors": "10.0.3",
