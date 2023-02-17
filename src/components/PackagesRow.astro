@@ -1,0 +1,162 @@
+---
+import chunks from "@lib/chunks.js";
+import request from "@lib/request.js";
+
+const DARK_STYLE = "&color=black&logoColor=white&labelColor=black&logoWidth=15";
+const LIGHT_STYLE =
+	"&color=white&logoColor=black&labelColor=white&logoWidth=15";
+
+const { packages } = Astro.props;
+
+interface Badges {
+	img: string;
+	link: string;
+}
+
+interface PackagesRowItem {
+	name: string;
+	link: string;
+	github: string;
+	description: string;
+	badges: Set<Badges>;
+}
+
+let newPackages = new Set<PackagesRowItem>();
+
+for (const _package of packages) {
+	if (_package.match(/npm:/)) {
+		const packageScopeName = _package.split(":")[1];
+		const packageJson = await (
+			await fetch(`https://registry.npmjs.org/${packageScopeName}`)
+		).json();
+
+		const githubOwnerRepo = packageJson.homepage
+			.replace(/(git\+)?http?s:\/\/github.com\//, "")
+			.replace("#readme", "");
+
+		newPackages.add({
+			link: `https://github.com/${githubOwnerRepo}`,
+			name: packageJson.name,
+			github: githubOwnerRepo,
+			description: packageJson.description,
+			badges: new Set([
+				{
+					img: `https://img.shields.io/github/actions/workflow/status/${githubOwnerRepo}/node.yml?branch=main&label=Build&logo=node.js`,
+					link: `https://github.com/${githubOwnerRepo}/actions/workflows/node.yml`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/npm/v/${packageJson.name}?label=version&logo=npm`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/librariesio/release/npm/${packageJson.name}?label=dependencies&logo=dependabot`,
+				},
+				{
+					link: `https://npmjs.org/${packageJson.name}`,
+					img: `https://img.shields.io/npm/dw/${packageJson.name}?label=downloads&logo=npm`,
+				},
+			]),
+		});
+	}
+
+	if (_package.match(/github:/)) {
+		const githubOwnerRepo = _package.split(":")[1];
+		const githubOwner = githubOwnerRepo.split("/")[0];
+		const githubRepo = githubOwnerRepo.split("/")[1];
+
+		const githubJson = (
+			await request(`GET /repos/${githubOwnerRepo}`, {
+				owner: githubOwner,
+				repo: githubRepo,
+			})
+		)?.data;
+
+		newPackages.add({
+			link: githubJson.html_url,
+			name: githubJson.name,
+			github: githubJson.full_name,
+			description: githubJson.description,
+			badges: new Set(),
+		});
+	}
+}
+---
+
+{
+	[...chunks(Array.from(newPackages), 2)].map((packageRow) => (
+		<>
+			<tr>
+				{packageRow.map((_package) => {
+					let colspan = packageRow.length > 1 ? 2 : 4;
+					colspan -= _package.badges.size >= 1 ? 1 : 0;
+
+					return (
+						<>
+							{_package.badges.size >= 1 ? (
+								<td valign="top" colspan={colspan}>
+									<br />
+									{Array.from(_package.badges).map(
+										(badge) => (
+											<>
+												<a href={badge.link}>
+													<picture>
+														<source
+															media="(prefers-color-scheme: dark)"
+															srcset={`${badge.img}${DARK_STYLE}`}
+														/>
+														<source
+															media="(prefers-color-scheme: light)"
+															srcset={`${badge.img}${LIGHT_STYLE}`}
+														/>
+														<img
+															alt="Astro"
+															src={`${badge.img}${DARK_STYLE}`}
+														/>
+													</picture>
+												</a>
+												<br />
+											</>
+										)
+									)}
+									<br />
+								</td>
+							) : (
+								""
+							)}
+							<td valign="top" colspan={colspan}>
+								<br />
+								<a href={_package.link}>
+									<picture>
+										<source
+											media="(prefers-color-scheme: dark)"
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
+										/>
+										<source
+											media="(prefers-color-scheme: light)"
+											srcset={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${LIGHT_STYLE}`}
+										/>
+										<img
+											alt="Astro"
+											src={`https://img.shields.io/github/stars/${_package.github}?label=stars&logo=github${DARK_STYLE}`}
+										/>
+									</picture>
+								</a>
+								<br />
+								<a href={_package.link}>
+									<b>{_package.name}</b>
+								</a>
+								<br />
+								<b
+									set:html={_package.description
+										?.split(".")
+										?.join(".<br />")}
+								/>
+							</td>
+						</>
+					);
+				})}
+			</tr>
+		</>
+	))
+}

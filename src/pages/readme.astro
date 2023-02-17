@@ -1,0 +1,16 @@
+---
+import Readme from "../pages/raw/readme.astro";
+import Base from "@layouts/Base.astro";
+---
+
+<Base>
+	<style is:global>
+		@import "github-markdown-css";
+	</style>
+
+	<div class="container">
+		<div class="markdown-body">
+			<Readme />
+		</div>
+	</div>
+</Base>
