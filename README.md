@@ -1,5 +1,5 @@
-# [nikolahristov.tech] 🧑🏻
+# [astro-starter-template] 📄
 
-Nikola Hristov main website.
+Starter template for AstroJS.
 
-[nikolahristov.tech]: https://nikolahristov.tech
+[astro-starter-template]: https://npmjs.org/astro-starter-template
