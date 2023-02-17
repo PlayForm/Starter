@@ -1,0 +1,191 @@
+---
+import PackagesRow from "@components/PackagesRow.astro";
+import type { packageCell } from "../../options/packageCell";
+
+const packages = Astro.props["packages"] ?? new Map<string, Set<packageCell>>();
+
+packages.set(
+	"projects",
+	new Set<packageCell>(["npm:files-pipeline", "github:nikolaxhristov/bench"])
+);
+
+packages.set(
+	"astro",
+	new Set<packageCell>([
+		"npm:astro-compress",
+		"npm:astro-convert",
+		"npm:astro-critters",
+		"npm:astro-dashboard",
+		"npm:astro-dead-links",
+		"npm:astro-img",
+		"npm:astro-networks",
+		"npm:astro-rome",
+		"npm:astro-short-urls",
+		"npm:astro-starter-template",
+	])
+);
+
+packages.set(
+	"npm",
+	new Set<packageCell>(["npm:@lightrix/config", "npm:@lightrix/scripts"])
+);
+
+packages.set(
+	"github",
+	new Set<packageCell>([
+		"npm:@yesmaintenance/scripts",
+		"npm:github-history-slider",
+	])
+);
+
+packages.set(
+	"obs",
+	new Set<packageCell>([
+		"github:nikolaxhristov/camera-tools",
+		"github:nikolaxhristov/spotify-now-playing",
+		"github:nikolaxhristov/obs",
+		"github:nikolaxhristov/spotify-widget",
+	])
+);
+
+packages.set(
+	"dotfiles",
+	new Set<packageCell>([
+		"github:nikolaxhristov/dot",
+		"github:nikolaxhristov/nvim",
+		"github:nikolaxhristov/powershell",
+		"github:nikolaxhristov/bash",
+		"github:nikolaxhristov/zsh",
+	])
+);
+---
+
+<>
+	<h1>
+		<a href="https://holopin.io/@nikola"
+			><img
+				alt="@nikola's Holopin board"
+				src="https://holopin.io/api/user/board?user=nikola"
+			/>
+		</a>
+	</h1>
+
+	<table>
+		<tr>
+			<td colspan="4">
+				<h2>🔥 Projects</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("projects")} />
+	</table>
+
+	<table>
+		<tr>
+			<td colspan="4">
+				<h2>
+					<picture
+						><source
+							media="(prefers-color-scheme: dark)"
+							srcset="https://raw.githubusercontent.com/image-repository/logos/main/.github/img/logomark-dark.svg"
+						/><source
+							media="(prefers-color-scheme: light)"
+							srcset="https://raw.githubusercontent.com/image-repository/logos/main/.github/img/logomark-light.svg"
+						/><img
+							width="25"
+							alt="Astro"
+							src="https://raw.githubusercontent.com/image-repository/logos/main/.github/img/logomark-light.svg"
+						/>
+					</picture> Astro
+				</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("astro")} />
+	</table>
+
+	<table>
+		<tr
+			><td colspan="4">
+				<h2>
+					<picture
+						><source
+							media="(prefers-color-scheme: dark)"
+							srcset="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg"
+						/><source
+							media="(prefers-color-scheme: light)"
+							srcset="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg"
+						/>
+						<img
+							src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg"
+							width="22"
+						/></picture
+					> NPM
+				</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("npm")} />
+	</table>
+
+	<table>
+		<tr
+			><td colspan="4">
+				<h2>
+					<img
+						src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png"
+						width="16"
+					/> Dotfiles
+				</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("dotfiles")} />
+	</table>
+
+	<table>
+		<tr>
+			<td colspan="4">
+				<h2>
+					<picture
+						><source
+							media="(prefers-color-scheme: dark)"
+							srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"
+						/><source
+							media="(prefers-color-scheme: light)"
+							srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
+						/><img
+							width="25"
+							alt="GitHub"
+							src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
+						/>
+					</picture>GitHub
+				</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("github")} />
+	</table>
+
+	<table>
+		<tr>
+			<td colspan="4">
+				<h2>
+					<img
+						src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"
+						width="24"
+						height="24"
+					/> OBS Project
+				</h2>
+			</td>
+		</tr>
+		<PackagesRow packages={packages.get("obs")} />
+	</table>
+
+	<a href="https://app.daily.dev/nikolahristov"
+		><img
+			src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/devcard.svg?rev=hs3VsNVqDK"
+			width="400"
+			alt="Nikola's Dev Card"
+		/>
+	</a>
+
+	<br /><br />
+
+	Source: <a href={Astro.request.url}>{Astro.request.url}</a>
+</>
