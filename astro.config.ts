@@ -9,7 +9,8 @@ import rome from "astro-rome";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
-	site: "https://nikolahristov.tech",
+	// TODO Place your site URL here
+	// site: "",
 	integrations: [
 		worker(),
 		sitemap(),
