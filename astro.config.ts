@@ -9,7 +9,8 @@ import sitemap from "@astrojs/sitemap";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
-	site: "https://intakenomnom.com",
+	// TODO Place your site URL here
+	// site: "",
 	integrations: [
 		worker(),
 		sitemap(),
