@@ -50,6 +50,6 @@
 		"zod": "3.20.6"
 	},
 	"publishConfig": {
-		"access": "restricted"
+		"access": "public"
 	}
 }
