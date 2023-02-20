@@ -9,8 +9,7 @@ import sitemap from "@astrojs/sitemap";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
-	// TODO Place your site URL here
-	// site: "",
+	site: "https://blackrainbow.ai",
 	integrations: [
 		worker(),
 		sitemap(),
