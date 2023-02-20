@@ -1,13 +1,15 @@
 {
-	"name": "astro-starter-template",
+	"name": "returnthief-web",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lightrix/astro-starter-template.git"
+		"url": "https://github.com/returnthief/returnthief.quest.git"
 	},
-	"homepage": "https://github.com/lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/returnthief/returnthief.quest#readme",
 	"bugs": {
-		"url": "https://github.com/lightrix/astro-starter-template/issues"
+		"url": "https://github.com/returnthief/returnthief.quest/issues"
+	"bugs": {
+		"url": "https://github.com/intakenomnom/intakenomnom.com/issues"
 	},
 	"license": "MIT",
 	"private": true,
