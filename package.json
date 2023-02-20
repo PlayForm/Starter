@@ -1,17 +1,20 @@
 {
-	"name": "image-web",
-	"version": "1.2.2",
-	"description": "📄 Starter template for AstroJS.",
+	"name": "astro-starter-template",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/imagewtf/image.wtf.git"
+		"url": "https://github.com/lightrix/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/imagewtf/image.wtf#readme",
+	"homepage": "https://github.com/lightrix/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/imagewtf/image.wtf/issues"
+		"url": "https://github.com/lightrix/astro-starter-template/issues"
 	},
 	"license": "MIT",
 	"private": true,
+	"keywords": [
+		"astro",
+		"starter"
+	],
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -46,6 +49,6 @@
 		"zod": "3.20.6"
 	},
 	"publishConfig": {
-		"access": "restricted"
+		"access": "public"
 	}
 }
