@@ -1,5 +1,5 @@
-# [astro-starter-template] 📄
+# [blackrainbow.news] 📰
 
-Starter template for AstroJS.
+BlackRainbow.news main website.
 
-[astro-starter-template]: https://npmjs.org/astro-starter-template
+[blackrainbow.news]: https://blackrainbow.news
