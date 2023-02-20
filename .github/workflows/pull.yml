@@ -15,7 +15,9 @@ permissions:
 jobs:
     approve-and-merge:
         runs-on: ubuntu-latest
-        if: ${{ github.actor == 'pull[bot]' }}
+        if:
+            ${{ github.actor == 'pull[bot]' || github.actor == 'nikolaxhristov'
+            }}
         steps:
             - run: |
                   echo "PR_URL: ${{github.event.pull_request.html_url}}"
