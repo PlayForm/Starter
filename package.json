@@ -1,15 +1,13 @@
 {
-	"name": "returnthief-web",
+	"name": "@yesmaintenance/astro-starter-template",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/returnthief/returnthief.quest.git"
+		"url": "https://github.com/yesmaintenance/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/returnthief/returnthief.quest#readme",
+	"homepage": "https://github.com/yesmaintenance/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/returnthief/returnthief.quest/issues"
-	"bugs": {
-		"url": "https://github.com/intakenomnom/intakenomnom.com/issues"
+		"url": "https://github.com/yesmaintenance/astro-starter-template/issues"
 	},
 	"license": "MIT",
 	"private": true,
