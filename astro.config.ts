@@ -9,7 +9,7 @@ import sitemap from "@astrojs/sitemap";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
-	site: "https://blackrainbow.ai",
+	site: "https://image.wtf",
 	integrations: [
 		worker(),
 		sitemap(),
