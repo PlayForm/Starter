@@ -11,7 +11,7 @@ import worker from "astrojs-service-worker";
 export default defineConfig({
 	// TODO Place your site URL here
 	// site: "",
-integrations: [
+	integrations: [
 		worker(),
 		sitemap(),
 		critters({ logger: 1 }),
