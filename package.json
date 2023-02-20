@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"name": "returnthief-web",
 	"version": "0.0.1",
 	"repository": {
@@ -9,17 +8,6 @@
 	"homepage": "https://github.com/returnthief/returnthief.quest#readme",
 	"bugs": {
 		"url": "https://github.com/returnthief/returnthief.quest/issues"
-=======
-	"name": "intakenomnom-web",
-	"version": "0.0.1",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/intakenomnom/intakenomnom.com.git"
-	},
-	"homepage": "https://github.com/intakenomnom/intakenomnom.com#readme",
-	"bugs": {
-		"url": "https://github.com/intakenomnom/intakenomnom.com/issues"
->>>>>>> upstream/main
 	},
 	"license": "MIT",
 	"private": true,
