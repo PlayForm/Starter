@@ -15,13 +15,8 @@ permissions:
 jobs:
     approve-and-merge:
         runs-on: ubuntu-latest
-        if:
-            ${{ github.actor == 'pull[bot]' || github.actor == 'nikolaxhristov'
-            }}
+        if: ${{ github.actor == 'pull[bot]' }}
         steps:
-            - run: |
-                  echo "PR_URL: ${{github.event.pull_request.html_url}}"
-                  echo "PR_AUTHOR: ${{github.event.pull_request.user.login}}"
             - run: gh pr review --approve "$PR_URL"
               env:
                   PR_URL: ${{github.event.pull_request.html_url}}
