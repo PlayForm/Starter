@@ -3,14 +3,13 @@
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lightrix/astro-starter-template.git"
+		"url": "https://github.com/Lightrix/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/lightrix/astro-starter-template/issues"
+		"url": "https://github.com/Lightrix/astro-starter-template/issues"
 	},
 	"license": "MIT",
-	"private": true,
 	"keywords": [
 		"astro",
 		"starter"
