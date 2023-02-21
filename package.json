@@ -11,7 +11,7 @@
 		"url": "https://github.com/Lightrix/astro-starter-template/issues"
 	},
 	"license": "MIT",
-	"private": true,
+	"private": false,
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -45,6 +45,6 @@
 		"zod": "3.20.6"
 	},
 	"publishConfig": {
-		"access": "restricted"
+		"access": "public"
 	}
 }
