@@ -1,5 +1,5 @@
 ---
-import "./../styles/base.css";
+import "../styles/base.css";
 
 const { title = "", description = "" } = Astro.props;
 ---
@@ -48,6 +48,9 @@ const { title = "", description = "" } = Astro.props;
 			<div class="grow">
 				<slot />
 			</div>
+			<script>
+				import "@scripts/firebase";
+			</script>
 		</div>
 	</body>
 </html>

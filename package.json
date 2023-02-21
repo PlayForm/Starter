@@ -1,13 +1,13 @@
 {
-	"name": "astro-starter-template",
+	"name": "intakenomnom-web",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lightrix/astro-starter-template.git"
+		"url": "https://github.com/intakenomnom/intakenomnom.com.git"
 	},
-	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/intakenomnom/intakenomnom.com#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+		"url": "https://github.com/intakenomnom/intakenomnom.com/issues"
 	},
 	"license": "MIT",
 	"private": true,
@@ -48,6 +48,6 @@
 		"zod": "3.20.6"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "restricted"
 	}
 }
