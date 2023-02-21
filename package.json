@@ -1,14 +1,14 @@
 {
-	"name": "intakenomnom-web",
+	"name": "astro-starter-template",
 	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/intakenomnom/intakenomnom.com.git"
+		"url": "https://github.com/Lightrix/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/intakenomnom/intakenomnom.com#readme",
+	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/intakenomnom/intakenomnom.com/issues"
+		"url": "https://github.com/Lightrix/astro-starter-template/issues"
 	},
 	"license": "MIT",
 	"private": true,
