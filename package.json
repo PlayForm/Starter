@@ -1,6 +1,7 @@
 {
 	"name": "astro-starter-template",
 	"version": "0.0.1",
+	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Lightrix/astro-starter-template.git"
