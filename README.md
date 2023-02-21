@@ -1,5 +1,5 @@
-# [astro-starter-template] 📄
+# [intakenomnom.com] ⬅️
 
-Starter template for AstroJS.
+Intakenomnom.com main website.
 
-[astro-starter-template]: https://npmjs.org/astro-starter-template
+[intakenomnom.com]: https://intakenomnom.com
