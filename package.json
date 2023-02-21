@@ -10,6 +10,7 @@
 		"url": "https://github.com/Lightrix/astro-starter-template/issues"
 	},
 	"license": "MIT",
+	"private": false,
 	"keywords": [
 		"astro",
 		"starter"
