@@ -1,5 +1,5 @@
-# [astro-starter-template] 📄
+# [returnthief.quest] 🦹🏻
 
-Starter template for AstroJS.
+ReturnThief.quest main website.
 
-[astro-starter-template]: https://npmjs.org/astro-starter-template
+[returnthief.quest]: https://returnthief.quest
