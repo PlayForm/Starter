@@ -11,10 +11,6 @@
 	},
 	"license": "MIT",
 	"private": true,
-	"keywords": [
-		"astro",
-		"starter"
-	],
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -48,6 +44,6 @@
 		"zod": "3.20.6"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "restricted"
 	}
 }
