@@ -1,5 +1,5 @@
-# [blank-web-starter] 📄
+# [astro-starter-template] 📄
 
 Starter template for AstroJS.
 
-[blank-web-starter]: https://npmjs.org/blank-web-starter
+[astro-starter-template]: https://npmjs.org/astro-starter-template
