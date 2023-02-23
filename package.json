@@ -1,14 +1,14 @@
 {
-	"name": "astro-starter-template",
+	"name": "blank-web-starter",
 	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lightrix/astro-starter-template.git"
+		"url": "https://github.com/playform/blank-web-starter.git"
 	},
-	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/playform/blank-web-starter#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+		"url": "https://github.com/playform/blank-web-starter/issues"
 	},
 	"license": "MIT",
 	"private": false,
