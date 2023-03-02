@@ -12,7 +12,7 @@ export default defineConfig({
 	// TODO Place your site URL here
 	// site: "",
 	integrations: [
-		worker(),
+		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
 		critters({ logger: 1 }),
 		prefetch(),
