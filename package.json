@@ -4,11 +4,11 @@
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/playform/blank-web-starter.git"
+		"url": "https://github.com/Playform/blank-web-starter.git"
 	},
-	"homepage": "https://github.com/playform/blank-web-starter#readme",
+	"homepage": "https://github.com/Playform/blank-web-starter#readme",
 	"bugs": {
-		"url": "https://github.com/playform/blank-web-starter/issues"
+		"url": "https://github.com/Playform/blank-web-starter/issues"
 	},
 	"license": "MIT",
 	"private": false,
