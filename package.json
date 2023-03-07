@@ -21,14 +21,14 @@
 		"start": "astro dev"
 	},
 	"devDependencies": {
-		"@astrojs/prefetch": "0.1.2",
-		"@astrojs/sitemap": "1.1.0",
+		"@astrojs/prefetch": "0.2.0",
+		"@astrojs/sitemap": "1.2.0",
 		"@lightrix/config": "0.0.7",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",
 		"@tailwindcss/typography": "0.5.9",
-		"astro": "2.0.18",
+		"astro": "2.1.0",
 		"astro-compress": "1.1.35",
 		"astro-critters": "1.1.31",
 		"astro-rome": "0.1.11",
