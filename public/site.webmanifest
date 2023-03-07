@@ -6,5 +6,5 @@
 	"display": "minimal-ui",
 	"start_url": "/",
 	"categories": [],
-	"orientation": "portrait-primary"
+	"orientation": "landscape"
 }
