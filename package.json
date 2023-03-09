@@ -33,7 +33,7 @@
 		"astro-critters": "1.1.31",
 		"astro-rome": "0.1.11",
 		"astrojs-service-worker": "0.0.9",
-		"autoprefixer": "10.4.13",
+		"autoprefixer": "10.4.14",
 		"cssnano": "5.1.15",
 		"cssnano-preset-advanced": "5.3.10",
 		"dotenv": "16.0.3",
