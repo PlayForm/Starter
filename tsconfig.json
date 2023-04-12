@@ -2,26 +2,13 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@components/*": [
-				"src/components/*"
-			],
-			"@layouts/*": [
-				"src/layouts/*"
-			],
-			"@lib/*": [
-				"src/lib/*"
-			],
-			"@pages/*": [
-				"src/pages/*"
-			],
-			"@scripts/*": [
-				"src/scripts/*"
-			]
+			"@components/*": ["src/components/*"],
+			"@layouts/*": ["src/layouts/*"],
+			"@lib/*": ["src/lib/*"],
+			"@pages/*": ["src/pages/*"],
+			"@scripts/*": ["src/scripts/*"]
 		},
-		"types": [
-			"astro/client",
-			"astro/env"
-		]
+		"types": ["astro/client", "astro/env"]
 	},
 	"extends": "@lightrix/config/base/ts"
 }
