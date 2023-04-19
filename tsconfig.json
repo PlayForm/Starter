@@ -6,7 +6,8 @@
 			"@layouts/*": ["src/layouts/*"],
 			"@lib/*": ["src/lib/*"],
 			"@pages/*": ["src/pages/*"],
-			"@scripts/*": ["src/scripts/*"]
+			"@scripts/*": ["src/scripts/*"],
+			"@styles/*": ["src/styles/*"]
 		},
 		"types": ["astro/client", "astro/env"]
 	},
