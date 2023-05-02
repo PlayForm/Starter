@@ -33,7 +33,7 @@
 		"astro-rome": "0.1.15",
 		"astrojs-service-worker": "1.0.0",
 		"autoprefixer": "10.4.14",
-		"cssnano": "6.0.0",
+		"cssnano": "6.0.1",
 		"cssnano-preset-advanced": "6.0.1",
 		"dotenv": "16.0.3",
 		"firebase": "9.21.0",
