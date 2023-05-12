@@ -22,12 +22,16 @@
 	},
 	"devDependencies": {
 		"@astrojs/prefetch": "0.2.1",
-		"@astrojs/sitemap": "1.3.0",
+		"@astrojs/sitemap": "1.3.1",
 		"@lightrix/config": "0.0.11",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/typography": "0.5.9",
+<<<<<<< HEAD
 		"astro": "2.4.5",
+=======
+		"astro": "2.4.4",
+>>>>>>> 6f0ba9b1eb82254cc92a65ebc395687f8a462411
 		"astro-compress": "1.1.42",
 		"astro-critters": "1.1.34",
 		"astro-rome": "0.1.15",
