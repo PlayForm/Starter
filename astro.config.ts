@@ -10,6 +10,9 @@ import worker from "astrojs-service-worker";
 export default defineConfig({
 	// TODO Place your site URL here
 	// site: "",
+	experimental: {
+		assets: true,
+	},
 	integrations: [
 		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
