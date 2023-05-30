@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"baseUrl": ".",
+		"moduleResolution": "bundler",
 		"paths": {
 			"@assets/*": ["src/assets/*"],
 			"@components/*": ["src/components/*"],
@@ -11,7 +12,12 @@
 			"@scripts/*": ["src/scripts/*"],
 			"@styles/*": ["src/styles/*"]
 		},
-		"types": ["astro/client", "astro/env"]
+		"types": [
+			"astro/client",
+			"astro/client-image",
+			"astro/env",
+			"src/env.d.ts"
+		]
 	},
 	"extends": "@lightrix/config/base/ts"
 }
