@@ -21,4 +21,9 @@ export default defineConfig({
 		rome({ logger: 1 }),
 		compress({ logger: 1 }),
 	],
+	vite: {
+		build: {
+			sourcemap: true
+		}
+	}
 });
