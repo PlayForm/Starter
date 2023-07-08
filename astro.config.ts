@@ -13,6 +13,7 @@ export default defineConfig({
 	experimental: {
 		assets: true,
 	},
+	compressHTML: true,
 	integrations: [
 		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
