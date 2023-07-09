@@ -12,10 +12,7 @@
 	},
 	"license": "MIT",
 	"private": false,
-	"keywords": [
-		"astro",
-		"starter"
-	],
+	"keywords": ["astro", "starter"],
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -50,4 +47,3 @@
 		"access": "public"
 	}
 }
-
