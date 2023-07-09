@@ -1,6 +1,20 @@
 {
 	"bugs": {
+<<<<<<< HEAD
 		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+=======
+		"url": "https://github.com/Playform/blank-web-starter/issues"
+	},
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"astro",
+		"starter"
+	],
+	"scripts": {
+		"build": "astro check && astro build",
+		"start": "astro dev"
+>>>>>>> upstream/main
 	},
 	"description": "📄 Starter template for AstroJS.",
 	"devDependencies": {
