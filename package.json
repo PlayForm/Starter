@@ -7,7 +7,6 @@
 		"astro",
 		"starter"
 	],
-<<<<<<< HEAD
 	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
 	"bugs": {
 		"url": "https://github.com/Lightrix/astro-starter-template/issues"
@@ -15,15 +14,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Lightrix/astro-starter-template.git"
-=======
-	"homepage": "https://github.com/Playform/blank-web-starter#readme",
-	"bugs": {
-		"url": "https://github.com/Playform/blank-web-starter/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Playform/blank-web-starter.git"
->>>>>>> upstream/main
 	},
 	"license": "MIT",
 	"scripts": {
