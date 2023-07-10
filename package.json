@@ -1,21 +1,21 @@
 {
 	"name": "blank-web-starter",
 	"version": "0.0.1",
-	"description": "📄 Starter template for AstroJS.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Playform/blank-web-starter.git"
-	},
-	"homepage": "https://github.com/Playform/blank-web-starter#readme",
-	"bugs": {
-		"url": "https://github.com/Playform/blank-web-starter/issues"
-	},
-	"license": "MIT",
 	"private": false,
+	"description": "📄 Starter template for AstroJS.",
 	"keywords": [
 		"astro",
 		"starter"
 	],
+	"homepage": "https://github.com/Playform/blank-web-starter#readme",
+	"bugs": {
+		"url": "https://github.com/Playform/blank-web-starter/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Playform/blank-web-starter.git"
+	},
+	"license": "MIT",
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
