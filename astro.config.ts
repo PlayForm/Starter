@@ -1,11 +1,12 @@
 // @ts-nocheck
-import worker from "astrojs-service-worker";
-import { defineConfig } from "astro/config";
 import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import critters from "astro-critters";
+import preload from "astro-preload";
 import rome from "astro-rome";
+import { defineConfig } from "astro/config";
+import worker from "astrojs-service-worker";
 
 export default defineConfig({
 	// TODO Place your site URL here
@@ -15,6 +16,7 @@ export default defineConfig({
 	},
 	compressHTML: true,
 	integrations: [
+		preload(),
 		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
 		critters({ logger: 1 }),
