@@ -3,7 +3,6 @@ import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import critters from "astro-critters";
-import preload from "astro-preload";
 import rome from "astro-rome";
 import { defineConfig } from "astro/config";
 import worker from "astrojs-service-worker";
