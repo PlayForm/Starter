@@ -12,6 +12,7 @@ export default defineConfig({
 	// site: "",
 	experimental: {
 		assets: true,
+		viewTransitions: true,
 	},
 	integrations: [
 		import.meta.env.MODE === "production" ? worker() : null,
