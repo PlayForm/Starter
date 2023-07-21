@@ -12,6 +12,7 @@ export default defineConfig({
 	// site: "",
 	experimental: {
 		assets: true,
+		viewTransitions: true,
 	},
 	compressHTML: true,
 	integrations: [
