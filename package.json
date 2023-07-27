@@ -13,7 +13,11 @@
 	},
 	"repository": {
 		"type": "git",
+<<<<<<< HEAD
 		"url": "git+https://github.com/Lightrix/astro-starter-template.git"
+=======
+		"url": "git+https://github.com/Playform/blank-web-starter.git"
+>>>>>>> upstream/main
 	},
 	"license": "MIT",
 	"scripts": {
