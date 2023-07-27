@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Playform/blank-web-starter.git"
+		"url": "git+https://github.com/Playform/blank-web-starter.git"
 	},
 	"license": "MIT",
 	"scripts": {
@@ -28,8 +28,8 @@
 		"@tailwindcss/forms": "0.5.4",
 		"@tailwindcss/typography": "0.5.9",
 		"astro": "2.9.3",
-		"astro-compress": "1.1.49",
-		"astro-critters": "1.1.39",
+		"astro-compress": "1.1.50",
+		"astro-critters": "1.1.40",
 		"astro-rome": "0.1.18",
 		"astrojs-service-worker": "1.0.0",
 		"autoprefixer": "10.4.14",
