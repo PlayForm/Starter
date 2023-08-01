@@ -15,8 +15,7 @@
 		"types": [
 			"astro/client",
 			"astro/client-image",
-			"astro/env",
-			"src/env.d.ts"
+			"astro/env"
 		]
 	},
 	"extends": "@lightrix/config/base/ts"
