@@ -12,11 +12,7 @@
 			"@scripts/*": ["src/scripts/*"],
 			"@styles/*": ["src/styles/*"]
 		},
-		"types": [
-			"astro/client",
-			"astro/client-image",
-			"astro/env",
-		]
+		"types": ["astro/client", "astro/client-image", "astro/env"]
 	},
 	"extends": "@lightrix/config/base/ts"
 }
