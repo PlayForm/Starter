@@ -6,7 +6,7 @@
 			"@assets/*": ["Source/assets/*"],
 			"@components/*": ["Source/components/*"],
 			"@layouts/*": ["Source/layouts/*"],
-			"@Lib/*": ["Source/Lib/*"],
+			"@Library/*": ["Source/Library/*"],
 			"@options/*": ["Source/options/*"],
 			"@pages/*": ["Source/pages/*"],
 			"@scripts/*": ["Source/scripts/*"],
