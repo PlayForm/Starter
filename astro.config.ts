@@ -1,15 +1,15 @@
 import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
-import compress from "astro-compress";
+import Compress from "astro-compress";
 import critters from "astro-critters";
-import rome from "astro-rome";
+import ROME from "astro-rome";
 import { defineConfig } from "astro/config";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
-	outDir: "./Build",
+	outDir: "./Target",
 	// TODO Place your site URL here
 	// site: "",
 	experimental: {
@@ -22,8 +22,8 @@ export default defineConfig({
 		sitemap(),
 		critters({ logger: 1 }),
 		prefetch(),
-		rome({ logger: 1 }),
-		compress({ logger: 1 }),
+		ROME({ logger: 1 }),
+		Compress({ logger: 1 }),
 	],
 	vite: {
 		build: {
