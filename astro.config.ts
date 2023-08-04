@@ -7,6 +7,7 @@ import { defineConfig } from "astro/config";
 import worker from "astrojs-service-worker";
 
 export default defineConfig({
+	srcDir: "./Source",
 	// TODO Place your site URL here
 	// site: "",
 	experimental: {
