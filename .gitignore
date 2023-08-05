@@ -15,5 +15,5 @@ yarn-error.log*
 # macOS-specific files
 .DS_Store
 
-dist/
+Target/
 .astro
