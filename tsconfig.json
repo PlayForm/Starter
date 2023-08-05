@@ -3,14 +3,14 @@
 		"baseUrl": ".",
 		"moduleResolution": "bundler",
 		"paths": {
-			"@assets/*": ["Source/assets/*"],
-			"@components/*": ["Source/components/*"],
-			"@layouts/*": ["Source/Layout/*"],
+			"@Asset/*": ["Source/Asset/*"],
+			"@Component/*": ["Source/Component/*"],
+			"@Layout/*": ["Source/Layout/*"],
 			"@Library/*": ["Source/Library/*"],
 			"@Option/*": ["Source/Option/*"],
 			"@Page/*": ["Source/pages/*"],
 			"@Script/*": ["Source/Script/*"],
-			"@styles/*": ["Source/styles/*"]
+			"@Style/*": ["Source/Style/*"]
 		},
 		"types": ["astro/client", "astro/client-image", "astro/env"]
 	},
