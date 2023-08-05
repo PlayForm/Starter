@@ -5,11 +5,11 @@
 		"paths": {
 			"@assets/*": ["Source/assets/*"],
 			"@components/*": ["Source/components/*"],
-			"@layouts/*": ["Source/layouts/*"],
+			"@layouts/*": ["Source/Layout/*"],
 			"@Library/*": ["Source/Library/*"],
-			"@options/*": ["Source/options/*"],
-			"@pages/*": ["Source/pages/*"],
-			"@scripts/*": ["Source/scripts/*"],
+			"@Option/*": ["Source/Option/*"],
+			"@Page/*": ["Source/pages/*"],
+			"@Script/*": ["Source/Script/*"],
 			"@styles/*": ["Source/styles/*"]
 		},
 		"types": ["astro/client", "astro/client-image", "astro/env"]
