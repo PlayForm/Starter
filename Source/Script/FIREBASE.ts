@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp as Initialize } from "firebase/app";
 
-const firebaseConfig = {
+Initialize({
 	apiKey: "", // TODO Replace with your API key
 	appId: "", // TODO Replace with your app ID
 	authDomain: "", // TODO Replace with your auth domain
@@ -9,6 +9,4 @@ const firebaseConfig = {
 	messagingSenderId: "", // TODO Replace with your messaging sender ID
 	projectId: "", // TODO Replace with your project ID
 	storageBucket: "", // TODO Replace with your storage bucket
-};
-
-initializeApp(firebaseConfig);
+});
