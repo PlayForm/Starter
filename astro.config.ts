@@ -1,10 +1,10 @@
-import prefetch from "@astrojs/prefetch";
-import sitemap from "@astrojs/sitemap";
+import PreFetch from "@astrojs/prefetch";
+import SiteMap from "@astrojs/sitemap";
 import Compress from "astro-compress";
-import critters from "astro-critters";
+import Critters from "astro-critters";
 import ROME from "astro-rome";
 import { defineConfig } from "astro/config";
-import worker from "astrojs-service-worker";
+import Worker from "astrojs-service-worker";
 
 export default defineConfig({
 	srcDir: "./Source",
@@ -18,10 +18,10 @@ export default defineConfig({
 	},
 	compressHTML: true,
 	integrations: [
-		import.meta.env.MODE === "production" ? worker() : null,
-		sitemap(),
-		critters({ logger: 1 }),
-		prefetch(),
+		import.meta.env.MODE === "production" ? Worker() : null,
+		SiteMap(),
+		Critters({ logger: 1 }),
+		PreFetch(),
 		ROME({ logger: 1 }),
 		Compress({ logger: 1 }),
 	],
