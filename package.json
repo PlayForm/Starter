@@ -1,6 +1,6 @@
 {
 	"name": "astro-starter-template",
-	"version": "0.0.1",
+	"version": "2.0.0",
 	"private": false,
 	"description": "📄 Starter template for AstroJS.",
 	"keywords": [
@@ -27,10 +27,10 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.4",
 		"@tailwindcss/typography": "0.5.9",
-		"astro": "2.10.1",
-		"astro-compress": "1.1.50",
-		"astro-critters": "1.1.40",
-		"astro-rome": "0.1.18",
+		"astro": "2.10.3",
+		"astro-compress": "2.0.0",
+		"astro-critters": "2.0.0",
+		"astro-rome": "2.0.0",
 		"astrojs-service-worker": "1.0.0",
 		"autoprefixer": "10.4.14",
 		"cssnano": "6.0.1",
