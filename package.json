@@ -15,7 +15,6 @@
 		"type": "git",
 		"url": "git+https://github.com/Lightrix/astro-starter-template.git"
 	},
-	"license": "MIT",
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
