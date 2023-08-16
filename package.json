@@ -16,7 +16,7 @@
 		"url": "git+https://github.com/Lightrix/AstroStarter-template.git"
 	},
 	"scripts": {
-		"build": "astro check && astro build",
+		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
 	},
 	"devDependencies": {
