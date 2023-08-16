@@ -14,5 +14,5 @@
 		},
 		"types": ["astro/client", "astro/client-image", "astro/env"]
 	},
-	"extends": "@lightrix/configuration/Base/TypeScript"
+	"extends": "typescript-esbuild/Target/Configuration/TypeScript"
 }

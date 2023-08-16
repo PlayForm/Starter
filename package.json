@@ -1,5 +1,5 @@
 {
-	"name": "astro-starter-template",
+	"name": "AstroStarter-template",
 	"version": "2.0.0",
 	"private": false,
 	"description": "📄 Starter template for AstroJS.",
@@ -7,13 +7,13 @@
 		"astro",
 		"starter"
 	],
-	"homepage": "https://github.com/Lightrix/astro-starter-template#readme",
+	"homepage": "https://github.com/Lightrix/AstroStarter-template#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/astro-starter-template/issues"
+		"url": "https://github.com/Lightrix/AstroStarter-template/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lightrix/astro-starter-template.git"
+		"url": "git+https://github.com/Lightrix/AstroStarter-template.git"
 	},
 	"scripts": {
 		"build": "astro check && astro build",
@@ -21,28 +21,28 @@
 	},
 	"devDependencies": {
 		"@astrojs/prefetch": "0.3.0",
-		"@astrojs/sitemap": "2.0.1",
+		"@astrojs/sitemap": "2.0.2",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.4",
 		"@tailwindcss/typography": "0.5.9",
-		"astro": "2.10.5",
-		"astro-compress": "2.0.5",
-		"astro-critters": "2.0.4",
-		"astro-rome": "2.0.1",
+		"astro": "2.10.9",
+		"astro-compress": "2.0.12",
+		"astro-critters": "2.0.10",
+		"astro-rome": "2.0.7",
 		"astrojs-service-worker": "1.0.0",
-		"autoprefixer": "10.4.14",
+		"autoprefixer": "10.4.15",
 		"cssnano": "6.0.1",
 		"cssnano-preset-advanced": "6.0.1",
 		"dotenv": "16.3.1",
 		"firebase": "10.1.0",
-		"postcss": "8.4.27",
+		"postcss": "8.4.28",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "15.1.0",
 		"postcss-reporter": "7.0.5",
 		"postcss-url": "10.1.3",
 		"tailwindcss": "3.3.3",
-		"zod": "3.21.4"
+		"zod": "3.22.1"
 	},
 	"publishConfig": {
 		"access": "public"
