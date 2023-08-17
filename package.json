@@ -1,6 +1,6 @@
 {
-	"name": "AstroStarter-template",
-	"version": "2.0.0",
+	"name": "astro-starter-template",
+	"version": "0.0.1",
 	"private": false,
 	"description": "📄 Starter template for AstroJS.",
 	"keywords": [

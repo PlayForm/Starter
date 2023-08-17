@@ -5,6 +5,8 @@
 		"paths": {
 			"@Asset/*": ["Source/Asset/*"],
 			"@Component/*": ["Source/Component/*"],
+			"@Context/*": ["Source/Context/*"],
+			"@Element/*": ["Source/Element/*"],
 			"@Layout/*": ["Source/Layout/*"],
 			"@Library/*": ["Source/Library/*"],
 			"@Option/*": ["Source/Option/*"],
