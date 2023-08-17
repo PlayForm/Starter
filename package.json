@@ -21,7 +21,6 @@
 		"email": "nikola@nikolahristov.tech",
 		"url": "https://nikolahristov.tech"
 	},
-	"type": "module",
 	"scripts": {
 		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
