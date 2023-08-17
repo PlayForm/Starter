@@ -1,7 +1,7 @@
 {
 	"name": "astro-starter-template",
 	"version": "0.0.1",
-	"private": false,
+	"private": "false",
 	"description": "📄 Starter template for AstroJS.",
 	"keywords": [
 		"astro",
@@ -16,6 +16,12 @@
 		"url": "git+https://github.com/Lightrix/AstroStarter-template.git"
 	},
 	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
+	"type": "module",
 	"scripts": {
 		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
