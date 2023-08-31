@@ -12,10 +12,6 @@ export default defineConfig({
 	outDir: "./Target",
 	// TODO Place your site URL here
 	// site: "",
-	experimental: {
-		assets: true,
-		viewTransitions: true,
-	},
 	compressHTML: true,
 	integrations: [
 		import.meta.env.MODE === "production" ? Worker() : null,
