@@ -1,7 +1,7 @@
-import * as dotenv from "dotenv";
+import { config } from "dotenv";
 import { z } from "zod";
 
-dotenv.config();
+config();
 
 export default z
 	.object({
