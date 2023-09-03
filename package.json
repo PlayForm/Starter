@@ -26,6 +26,7 @@
 		"start": "astro dev"
 	},
 	"devDependencies": {
+		"@astrojs/check": "0.2.0",
 		"@astrojs/prefetch": "0.4.0",
 		"@astrojs/sitemap": "3.0.0",
 		"@tailwindcss/aspect-ratio": "0.4.2",
@@ -48,6 +49,7 @@
 		"postcss-reporter": "7.0.5",
 		"postcss-url": "10.1.3",
 		"tailwindcss": "3.3.3",
+		"typescript": "5.2.2",
 		"typescript-esbuild": "0.1.15",
 		"zod": "3.22.2"
 	},
