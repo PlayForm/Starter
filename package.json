@@ -32,7 +32,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.6",
 		"@tailwindcss/typography": "0.5.10",
-		"astro": "3.1.0",
+		"astro": "3.1.1",
 		"astro-compress": "2.0.16",
 		"astro-critters": "2.0.11",
 		"astro-rome": "2.0.9",
@@ -42,7 +42,7 @@
 		"cssnano-preset-advanced": "6.0.1",
 		"dotenv": "16.3.1",
 		"firebase": "10.4.0",
-		"postcss": "8.4.29",
+		"postcss": "8.4.30",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "15.1.0",
@@ -50,7 +50,7 @@
 		"postcss-url": "10.1.3",
 		"tailwindcss": "3.3.3",
 		"typescript": "5.2.2",
-		"typescript-esbuild": "0.1.15",
+		"typescript-esbuild": "0.1.16",
 		"zod": "3.22.2"
 	},
 	"publishConfig": {
