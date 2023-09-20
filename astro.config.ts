@@ -19,10 +19,10 @@ export default defineConfig({
 		Critters({ Logger: 1 }),
 		Prefetch(),
 		Rome({ Logger: 1 }),
-	
-		Compress({ Logger: 1, Cache: {
-			Folder: './Test'
-		} }),
+		Compress({
+			Logger: 1,
+			Cache: "./Test",
+		}),
 	],
 	vite: {
 		build: {
