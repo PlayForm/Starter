@@ -14,11 +14,11 @@ export default defineConfig({
 	// site: "",
 	compressHTML: true,
 	integrations: [
-		// import.meta.env.MODE === "production" ? Worker() : null,
-		// Sitemap(),
-		// Critters({ Logger: 1 }),
-		// Prefetch(),
-		// Rome({ Logger: 1 }),
+		import.meta.env.MODE === "production" ? Worker() : null,
+		Sitemap(),
+		Critters({ Logger: 1 }),
+		Prefetch(),
+		Rome({ Logger: 1 }),
 		Compress({ Logger: 1 }),
 	],
 	vite: {
