@@ -14,7 +14,7 @@
 			"@Script/*": ["Source/Script/*"],
 			"@Style/*": ["Source/Style/*"]
 		},
-		"types": ["astro/client", "astro/client-image", "astro/env"]
+		"types": ["astro/client", "astro/env"]
 	},
 	"extends": "typescript-esbuild/Target/Notation/TypeScript"
 }
