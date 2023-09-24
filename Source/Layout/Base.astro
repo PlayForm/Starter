@@ -8,11 +8,13 @@ interface Props {
 	Title?: string;
 	Description?: string;
 }
+
+export const { Head } = await import("astro-capo");
 ---
 
 <!doctype html>
 <html lang="en" class="no-js" dir="ltr">
-	<head>
+	<Head>
 		<script>
 			document.documentElement.classList.remove("no-js");
 			document.documentElement.classList.add("js");
@@ -46,7 +48,7 @@ interface Props {
 		</style>
 
 		<!-- Favicon -->
-	</head>
+	</Head>
 	<body>
 		<!-- TODO Generate the ID here -->
 		<div id="">
