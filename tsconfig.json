@@ -16,5 +16,5 @@
 		},
 		"types": ["astro/client", "astro/env"]
 	},
-	"extends": "typescript-esbuild/Target/Notation/TypeScript"
+	"extends": "typescript-esbuild/Target/Configuration/TypeScript"
 }
