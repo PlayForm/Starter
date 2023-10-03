@@ -7,13 +7,13 @@
 		"astro",
 		"starter"
 	],
-	"homepage": "https://github.com/Lightrix/AstroStarterTemplate#readme",
+	"homepage": "https://github.com/Playform/AstroStarterTemplate#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/AstroStarterTemplate/issues"
+		"url": "https://github.com/Playform/AstroStarterTemplate/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lightrix/AstroStarterTemplate.git"
+		"url": "git+https://github.com/Playform/AstroStarterTemplate.git"
 	},
 	"license": "MIT",
 	"author": {
