@@ -8,3 +8,5 @@
 	projectId: "", // TODO Replace with your project ID
 	storageBucket: "", // TODO Replace with your storage bucket
 });
+
+export {}
