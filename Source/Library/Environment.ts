@@ -1,10 +1,9 @@
-import { config } from "dotenv";
-import { z } from "zod";
+(await import("dotenv")).config();
 
-config();
-
-export default z
+export default Zod.z
 	.object({
-		Token: z.string().default(""),
+		Token: Zod.z.string().default(""),
 	})
 	.parse(process.env);
+
+export const { default: Zod } = await import("zod");
