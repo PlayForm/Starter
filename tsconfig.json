@@ -1,7 +1,6 @@
 {
 	"compilerOptions": {
 		"baseUrl": "./",
-		"moduleResolution": "bundler",
 		"paths": {
 			"@Asset/*": ["Source/Asset/*"],
 			"@Component/*": ["Source/Component/*"],
