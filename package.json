@@ -22,7 +22,7 @@
 		"url": "https://nikolahristov.tech"
 	},
 	"scripts": {
-		"prepublishOnly": "astro check && astro build && knip",
+		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
 	},
 	"dependencies": {
