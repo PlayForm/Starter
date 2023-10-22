@@ -1,18 +1,6 @@
 {
 	"compilerOptions": {
 		"baseUrl": "./",
-		"paths": {
-			"@Asset/*": ["Source/Asset/*"],
-			"@Component/*": ["Source/Component/*"],
-			"@Context/*": ["Source/Context/*"],
-			"@Element/*": ["Source/Element/*"],
-			"@Layout/*": ["Source/Layout/*"],
-			"@Library/*": ["Source/Library/*"],
-			"@Option/*": ["Source/Option/*"],
-			"@Page/*": ["Source/pages/*"],
-			"@Script/*": ["Source/Script/*"],
-			"@Style/*": ["Source/Style/*"]
-		},
 		"types": ["astro/client", "astro/env"]
 	},
 	"extends": "typescript-esbuild/Target/Notation/TypeScript"
