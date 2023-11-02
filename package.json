@@ -28,7 +28,7 @@
 	"dependencies": {
 		"@astrojs/check": "0.3.0",
 		"@astrojs/prefetch": "0.4.1",
-		"@astrojs/sitemap": "3.0.2",
+		"@astrojs/sitemap": "3.0.3",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.6",
 		"@tailwindcss/typography": "0.5.10",
