@@ -5,7 +5,8 @@
 	"description": "📄 Starter template for AstroJS.",
 	"keywords": [
 		"astro",
-		"starter"
+		"starter",
+		"skeleton"
 	],
 	"homepage": "https://github.com/Playform/AstroStarterTemplate#readme",
 	"bugs": {
