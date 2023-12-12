@@ -52,14 +52,11 @@ import { ViewTransitions } from "astro:transitions";
 		<ViewTransitions />
 	</Head>
 	<body>
-		<!-- TODO Generate the ID here -->
-		<div id="">
-			<div class="grow">
-				<slot />
-			</div>
-			<script>
-				import "@Script/Firebase";
-			</script>
+		<div class="grow">
+			<slot />
 		</div>
+		<script>
+			import "@Script/Firebase";
+		</script>
 	</body>
 </html>
