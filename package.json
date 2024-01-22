@@ -34,7 +34,7 @@
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.10",
 		"astro": "4.2.1",
-		"astro-biome": "astro-community/AstroBiome#main",
+		"astro-biome": "NikolaRHristov/AstroBiome#main",
 		"astro-capo": "0.0.1",
 		"astro-compress": "2.2.8",
 		"astro-critters": "2.0.11",
