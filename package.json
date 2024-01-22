@@ -23,7 +23,7 @@
 		"url": "https://nikolahristov.tech"
 	},
 	"scripts": {
-		"prepublishOnly": "astro check ; astro build",
+		"prepublishOnly": "astro build",
 		"start": "astro dev"
 	},
 	"dependencies": {
@@ -34,6 +34,7 @@
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.10",
 		"astro": "4.2.1",
+		"astro-biome": "0.0.2",
 		"astro-capo": "0.0.1",
 		"astro-compress": "2.2.8",
 		"astro-critters": "2.0.11",
