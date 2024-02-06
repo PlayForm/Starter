@@ -45,7 +45,7 @@
 		"cssnano-preset-advanced": "6.0.3",
 		"dotenv": "16.4.1",
 		"firebase": "10.8.0",
-		"postcss": "8.4.33",
+		"postcss": "8.4.34",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "16.0.0",
