@@ -33,7 +33,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.10",
-		"astro": "4.4.13",
+		"astro": "4.4.14",
 		"astro-biome": "0.0.6",
 		"astro-capo": "0.0.1",
 		"astro-compress": "2.2.11",
