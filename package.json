@@ -36,7 +36,7 @@
 		"astro": "4.5.0",
 		"astro-biome": "0.0.7",
 		"astro-capo": "0.0.1",
-		"astro-compress": "2.2.13",
+		"astro-compress": "2.2.14",
 		"astro-critters": "2.1.4",
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.18",
