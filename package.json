@@ -27,7 +27,7 @@
 		"start": "astro dev"
 	},
 	"dependencies": {
-		"@astrojs/check": "0.5.6",
+		"@astrojs/check": "0.5.7",
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
