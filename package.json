@@ -27,13 +27,13 @@
 		"start": "astro dev"
 	},
 	"dependencies": {
-		"@astrojs/check": "0.5.7",
+		"@astrojs/check": "0.5.8",
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.10",
-		"astro": "4.5.1",
+		"astro": "4.5.2",
 		"astro-biome": "0.0.8",
 		"astro-capo": "0.0.1",
 		"astro-compress": "2.2.14",
