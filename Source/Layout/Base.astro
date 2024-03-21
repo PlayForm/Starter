@@ -9,8 +9,8 @@ interface Props {
 	Description?: string;
 }
 
-import { Head } from "astro-capo";
-import { ViewTransitions } from "astro:transitions";
+const { Head } = await import("astro-capo");
+const { ViewTransitions } = await import("astro:transitions");
 ---
 
 <!doctype html>
