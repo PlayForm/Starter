@@ -35,7 +35,7 @@
 		"astro-compress": "2.2.15",
 		"astro-critters": "2.1.4",
 		"astrojs-service-worker": "2.0.0",
-		"autoprefixer": "10.4.18",
+		"autoprefixer": "10.4.19",
 		"cssnano": "6.1.0",
 		"cssnano-preset-advanced": "6.1.0",
 		"dotenv": "16.4.5",
