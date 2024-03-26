@@ -35,7 +35,7 @@
 		"astro-critters": "2.1.6",
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.19",
-		"cssnano": "6.1.1",
+		"cssnano": "6.1.2",
 		"cssnano-preset-advanced": "6.1.1",
 		"dotenv": "16.4.5",
 		"firebase": "10.9.0",
