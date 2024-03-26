@@ -4,19 +4,19 @@
 	"private": false,
 	"description": "📄 AstroJS Starter.",
 	"keywords": ["astro", "starter", "skeleton"],
-	"homepage": "HTTPS://GitHub.Com/Playform/AstroStarterTemplate#readme",
+	"homepage": "https://github.com/Playform/AstroStarterTemplate#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/AstroStarterTemplate/issues"
+		"url": "https://github.com/Playform/AstroStarterTemplate/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://GitHub.Com/Playform/AstroStarterTemplate.git"
+		"url": "git+https://github.com/Playform/AstroStarterTemplate.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Playform",
 		"email": "Hello@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"url": "https://playform.cloud"
 	},
 	"scripts": {
 		"prepublishOnly": "astro build",
