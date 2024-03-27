@@ -1,4 +1,4 @@
-# 📄 [AstroStarterTemplate]
+# 📄 [AstroStarterTemplate]
 
 A simple skeleton with TailwindCSS, PostCSS.
 

@@ -2,7 +2,7 @@
 	"name": "astro-starter-template",
 	"version": "0.0.1",
 	"private": false,
-	"description": "📄 AstroJS Starter.",
+	"description": "📄 AstroJS Starter.",
 	"keywords": ["astro", "starter", "skeleton"],
 	"homepage": "https://github.com/Playform/AstroStarterTemplate#readme",
 	"bugs": {
