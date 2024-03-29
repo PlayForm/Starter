@@ -1,16 +1,16 @@
 {
-	"name": "astro-starter-template",
+	"name": "starter-template-astro",
 	"version": "0.0.1",
 	"private": false,
 	"description": "📄 AstroJS Starter.",
 	"keywords": ["astro", "starter", "skeleton"],
-	"homepage": "https://github.com/Playform/AstroStarterTemplate#readme",
+	"homepage": "https://github.com/Playform/StarterTemplateAstro#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/AstroStarterTemplate/issues"
+		"url": "https://github.com/Playform/StarterTemplateAstro/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/AstroStarterTemplate.git"
+		"url": "git+https://github.com/Playform/StarterTemplateAstro.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
@@ -29,10 +29,10 @@
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.12",
 		"astro": "4.5.12",
-		"astro-biome": "0.0.10",
+		"biome-astro": "0.0.10",
 		"astro-capo": "0.0.1",
 		"compress-astro": "0.0.1",
-		"astro-critters": "2.1.6",
+		"critters-astro": "2.1.6",
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.19",
 		"cssnano": "6.1.2",
