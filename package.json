@@ -31,7 +31,7 @@
 		"astro": "4.5.12",
 		"@playform/biome-astro": "0.0.1",
 		"astro-capo": "0.0.1",
-		"compress-astro": "0.0.2",
+		"@playform/compress-astro": "0.0.1",
 		"@playform/critters-astro": "0.0.2",
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.19",
