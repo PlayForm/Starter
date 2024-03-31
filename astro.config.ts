@@ -12,7 +12,7 @@ export default (await import("astro/config")).defineConfig({
 		(await import("@astrojs/sitemap")).default(),
 		(await import("critters-astro")).default({ Logger: 1 }),
 		(await import("@astrojs/prefetch")).default(),
-		(await import("biome-astro")).default({ Logger: 1 }),
+		(await import("@playform/biome-astro")).default({ Logger: 1 }),
 		(await import("compress-astro")).default({ Logger: 1 }),
 	],
 	vite: {
