@@ -8,13 +8,13 @@
 		"starter",
 		"skeleton"
 	],
-	"homepage": "https://github.com/Playform/StarterTemplateAstro#ReadMe",
+	"homepage": "https://github.com/Playform/Starter#ReadMe",
 	"bugs": {
-		"url": "https://github.com/Playform/StarterTemplateAstro/issues"
+		"url": "https://github.com/Playform/Starter/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/StarterTemplateAstro.git"
+		"url": "git+https://github.com/Playform/Starter.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
@@ -29,10 +29,10 @@
 	"dependencies": {
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.2",
-		"@playform/biome-astro": "0.0.3",
+		"@playform/format": "0.0.3",
 		"@playform/build": "0.0.1",
-		"@playform/compress-astro": "0.0.2",
-		"@playform/critters-astro": "0.0.2",
+		"@playform/compress": "0.0.2",
+		"@playform/inline": "0.0.2",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.12",
