@@ -3,5 +3,6 @@
 		"baseUrl": "./",
 		"types": ["astro/client", "astro/env"]
 	},
-	"extends": "@playform/build/tsconfig"
+	"extends": "@playform/build/tsconfig",
+	"include": ["Source"]
 }
