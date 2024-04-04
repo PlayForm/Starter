@@ -1,5 +1,5 @@
 {
-	"name": "starter-template-astro",
+	"name": "@playform/starter",
 	"version": "0.0.1",
 	"private": false,
 	"description": "📄 AstroJS Starter.",

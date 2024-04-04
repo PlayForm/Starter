@@ -20,4 +20,4 @@ A simple skeleton with TailwindCSS, PostCSS.
     </tr>
 </table>
 
-[StarterTemplateAstro]: https://npmjs.org/starter-template-astro
+[StarterTemplateAstro]: https://npmjs.org/@playform/starter
