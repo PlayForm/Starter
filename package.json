@@ -24,7 +24,7 @@
 	},
 	"scripts": {
 		"prepublishOnly": "astro build",
-		"start": "astro dev"
+		"Start": "astro dev"
 	},
 	"dependencies": {
 		"@astrojs/prefetch": "0.4.1",
