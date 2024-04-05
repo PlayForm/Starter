@@ -30,7 +30,7 @@
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.2",
 		"@playform/build": "0.0.2",
-		"@playform/compress": "0.0.1",
+		"@playform/compress": "0.0.2",
 		"@playform/format": "0.0.1",
 		"@playform/inline": "0.0.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
