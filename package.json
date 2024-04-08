@@ -23,8 +23,8 @@
 		"url": "https://playform.cloud"
 	},
 	"scripts": {
-		"prepublishOnly": "astro build",
-		"Start": "astro dev"
+		"Start": "astro dev",
+		"prepublishOnly": "astro build"
 	},
 	"dependencies": {
 		"@astrojs/prefetch": "0.4.1",
@@ -56,5 +56,13 @@
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"overrides": {
+		"@playform/compress": {
+			"sharp": "0.33.3"
+		},
+		"astro": {
+			"sharp": "0.33.3"
+		}
 	}
 }
