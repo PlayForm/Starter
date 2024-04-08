@@ -26,6 +26,9 @@
 		"Start": "astro dev",
 		"prepublishOnly": "astro build"
 	},
+	"resolutions": {
+		"sharp": "0.33.3"
+	},
 	"dependencies": {
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.2",
@@ -58,6 +61,7 @@
 		"access": "public"
 	},
 	"overrides": {
+		"sharp": "0.33.3",
 		"@playform/compress": {
 			"sharp": "0.33.3"
 		},
