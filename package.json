@@ -60,6 +60,17 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"pnpm": {
+		"overrides": {
+			"@playform/compress": {
+				"sharp": "0.33.3"
+			},
+			"astro": {
+				"sharp": "0.33.3"
+			},
+			"sharp": "0.33.3"
+		}
+	},
 	"overrides": {
 		"sharp": "0.33.3",
 		"@playform/compress": {
