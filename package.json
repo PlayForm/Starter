@@ -50,39 +50,11 @@
 		"postcss-import": "16.1.0",
 		"postcss-reporter": "7.1.0",
 		"postcss-url": "10.1.3",
-		"sharp": "0.33.3",
 		"tailwindcss": "3.4.3",
 		"typescript": "5.4.4",
 		"zod": "3.22.4"
 	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"pnpm": {
-		"overrides": {
-			"@playform/compress": {
-				"astro": {
-					"sharp": "$sharp"
-				},
-				"sharp": "$sharp"
-			},
-			"astro": {
-				"sharp": "$sharp"
-			},
-			"sharp": "$sharp"
-		}
-	},
-	"overrides": {
-		"sharp": "$sharp",
-		"@playform/compress": {
-			"astro": {
-				"sharp": "$sharp"
-			},
-			
-			"sharp": "$sharp"
-		},
-		"astro": {
-			"sharp": "$sharp"
-		}
 	}
 }
