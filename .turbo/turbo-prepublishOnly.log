@@ -1,0 +1,41 @@
+
+> @playform/starter@0.0.1 prepublishOnly D:\Developer\Application\Playform\NPM\Starter
+> astro build
+
+23:59:18 [build] output: "static"
+23:59:18 [build] directory: D:\Developer\Application\Playform\NPM\Starter\Target\
+23:59:18 [build] Collecting build info...
+23:59:18 [build] ✓ Completed in 258ms.
+23:59:18 [build] Building static entrypoints...
+23:59:20 [vite] [32m✓ built in 1.59s[39m
+23:59:20 [build] ✓ Completed in 1.63s.
+
+ building client (vite) 
+23:59:20 [vite] transforming...
+23:59:20 [vite] [32m✓[39m 25 modules transformed.
+23:59:20 [vite] rendering chunks...
+[plugin astro:prefetch] Sourcemap is likely to be incorrect: a plugin (astro:prefetch) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+[plugin astro:transitions] Sourcemap is likely to be incorrect: a plugin (astro:transitions) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+23:59:20 [vite] computing gzip size...
+23:59:20 [vite] [2mTarget/[22m[36m_astro/Base.astro_astro_type_script_index_0_lang.CLLBElSV.js             [39m[1m[2m 1.26 kB[22m[1m[22m[2m │ gzip: 0.78 kB[22m[2m │ map:   0.89 kB[22m
+23:59:20 [vite] [2mTarget/[22m[36m_astro/page.CY1iZwUD.js                                                  [39m[1m[2m 2.11 kB[22m[1m[22m[2m │ gzip: 1.07 kB[22m[2m │ map:   8.12 kB[22m
+23:59:20 [vite] [2mTarget/[22m[36m_astro/ViewTransitions.astro_astro_type_script_index_0_lang.DnFK6dK7.js  [39m[1m[2m13.11 kB[22m[1m[22m[2m │ gzip: 4.62 kB[22m[2m │ map:  35.24 kB[22m
+23:59:20 [vite] [2mTarget/[22m[36m_astro/index.esm.CDbocLk8.js                                             [39m[1m[2m39.52 kB[22m[1m[22m[2m │ gzip: 9.33 kB[22m[2m │ map: 197.09 kB[22m
+23:59:20 [vite] [32m✓ built in 266ms[39m
+
+ generating static routes 
+23:59:20 ▶ Source/pages/index.astro
+23:59:20   └─ /index.html (+46ms)
+23:59:20 ✓ Completed in 62ms.
+
+23:59:20 [WARN] [@astrojs/sitemap] The Sitemap integration requires the `site` astro.config option. Skipping.
+Successfully inlined a total of 1 HTML file.
+Successfully formatted a total of 4 JavaScript and TypeScript files.
+
+ Compress 
+✓ Successfully compressed a total of 1 CSS file for 65 Bytes.
+✓ Successfully compressed a total of 1 HTML file for 163 Bytes.
+✓ Successfully compressed a total of 1 Image file for 796.66 KB.
+✓ Successfully compressed a total of 3 JavaScript files for 24.54 KB.
+23:59:22 [build] 1 page(s) built in 3.99s
+23:59:22 [build] Complete!
