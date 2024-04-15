@@ -1,4 +1,4 @@
-# 📄 [StarterTemplateAstro]
+# 📄 [Starter.]
 
 A simple skeleton with TailwindCSS, PostCSS.
 
@@ -20,4 +20,4 @@ A simple skeleton with TailwindCSS, PostCSS.
     </tr>
 </table>
 
-[StarterTemplateAstro]: https://npmjs.org/@playform/starter
+[Starter]: https://npmjs.org/@playform/starter
