@@ -2,7 +2,7 @@
 	"name": "@playform/starter",
 	"version": "0.0.1",
 	"private": false,
-	"description": "📄 AstroJS Starter",
+	"description": "📄 Starter",
 	"keywords": [
 		"astro",
 		"starter",
