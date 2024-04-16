@@ -6,9 +6,9 @@ A simple skeleton with TailwindCSS, PostCSS.
 	<tr>
 		<td>
 			<picture>
-				<source media="(prefers-color-scheme: dark)" srcset="https://nikolahristov.tech/Image/GitHub/tailwindcss-logotype-white.svg">
-				<source media="(prefers-color-scheme: light)" srcset="https://nikolahristov.tech/Image/GitHub/tailwindcss-logotype.svg">
-				<img alt="TailwindCSS Logo" src="https://nikolahristov.tech/Image/GitHub/tailwindcss-logotype-white.svg" width="300" />
+				<source media="(prefers-color-scheme: dark)" srcset="https://nikolahristov.tech/Dark/Image/GitHub/tailwindcss.svg">
+				<source media="(prefers-color-scheme: light)" srcset="https://nikolahristov.tech/Image/GitHub/tailwindcss.svg">
+				<img alt="TailwindCSS Logo" src="https://nikolahristov.tech/Dark/Image/GitHub/tailwindcss.svg" width="300" />
 			</picture>
 		</td>
     	<td>
