@@ -6,7 +6,8 @@
 	"keywords": [
 		"astro",
 		"starter",
-		"skeleton"
+		"skeleton",
+		"playform"
 	],
 	"homepage": "HTTPS://GitHub.Com/Playform/Starter#readme",
 	"bugs": {
@@ -18,7 +19,7 @@
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Source/Open",
+		"name": "⛲ Source ⁄ 🚪 Open —",
 		"email": "Source/Open@Playform.Cloud",
 		"url": "HTTPS://Playform.Cloud"
 	},
