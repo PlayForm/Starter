@@ -1,4 +1,4 @@
-# 📄 [Starter.]
+# 📄 [Starter —]
 
 A simple skeleton with TailwindCSS, PostCSS.
 
@@ -20,4 +20,4 @@ A simple skeleton with TailwindCSS, PostCSS.
     </tr>
 </table>
 
-[Starter.]: HTTPS://npmjs.org/@playform/starter
+[Starter —]: httpS://npmjs.org/@playform/starter
