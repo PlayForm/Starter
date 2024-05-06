@@ -1,4 +1,4 @@
-# 📄 — [Starter] —
+# 📄 [Starter] —
 
 A simple skeleton with TailwindCSS, PostCSS.
 
