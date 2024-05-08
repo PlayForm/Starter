@@ -1,6 +1,9 @@
 {
 	"compilerOptions": {
 		"baseUrl": "./",
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"types": ["astro/client", "astro/env"]
 	},
 	"extends": "@playform/build/tsconfig",

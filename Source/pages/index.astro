@@ -1,5 +1,9 @@
 ---
+import Page from "@Element/Page/Index";
+
 import Base from "@Layout/Base.astro";
 ---
 
-<Base />
+<Base>
+	<Page client:only="solid-js" />
+</Base>
