@@ -20,4 +20,4 @@ A simple skeleton with TailwindCSS, PostCSS.
     </tr>
 </table>
 
-[Starter]: HTTPS://npmjs.org/@playform/starter
+[Starter]: HTTPS://NPMJS.Org/@playform/starter
