@@ -1,6 +1,4 @@
 # dependencies
-package-lock.json
-.snowpack/
 
 # logs
 npm-debug.log*
@@ -8,11 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # environment variables
-.env
 .env.production
 
 # macOS-specific files
-.DS_Store
 
 Target/
 .astro
