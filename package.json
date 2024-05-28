@@ -31,7 +31,7 @@
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.1.5",
 		"@astrojs/solid-js": "4.2.0",
-		"@playform/build": "0.0.9",
+		"@playform/build": "0.0.10",
 		"@playform/compress": "0.0.7",
 		"@playform/format": "0.0.2",
 		"@playform/inline": "0.0.4",
