@@ -33,7 +33,7 @@
 		"@astrojs/solid-js": "4.2.0",
 		"@playform/build": "0.0.9",
 		"@playform/compress": "0.0.7",
-		"@playform/format": "0.0.2",
+		"@playform/format": "0.0.4",
 		"@playform/inline": "0.0.4",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
