@@ -4,7 +4,8 @@ html {
 
 html,
 body {
-	height: 100%;
+	@apply h-full
+		w-full;
 }
 
 body {
