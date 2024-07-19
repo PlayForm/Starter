@@ -4,7 +4,8 @@ export default (await import("astro/config")).defineConfig({
 	outDir: "./Target",
 	// TODO Place your site URL here
 	// site: "",
-	compressHTML: false,
+	compressHTML: true,
+	prefetch: true,
 	integrations: [
 		(await import("@astrojs/solid-js")).default(),
 		// @ts-ignore
