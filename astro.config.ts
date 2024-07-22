@@ -26,6 +26,9 @@ export default (await import("astro/config")).defineConfig({
 		build: {
 			sourcemap: true,
 		},
+		resolve: {
+			preserveSymlinks: true,
+		},
 		css: {
 			devSourcemap: true,
 			transformer: "postcss",
