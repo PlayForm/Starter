@@ -1,7 +1,7 @@
 {
 	"name": "@playform/starter",
 	"version": "0.0.1",
-	"private": false,
+	"private": true,
 	"description": "📄 Starter —",
 	"keywords": [
 		"astro",
@@ -61,7 +61,7 @@
 		"zod": "*"
 	},
 	"publishConfig": {
-		"access": "public",
+		"access": "restricted",
 		"provenance": true
 	}
 }
