@@ -24,7 +24,7 @@
 		"url": "HTTPS://PlayForm.Cloud"
 	},
 	"scripts": {
-		"Run": "astro dev",
+		"Run": "astro dev --host",
 		"prepublishOnly": "astro build"
 	},
 	"dependencies": {
@@ -34,10 +34,12 @@
 		"@playform/format": "0.0.7",
 		"@playform/inline": "0.0.7",
 		"@swup/body-class-plugin": "3.2.0",
+		"@swup/fade-theme": "2.0.1",
 		"@swup/head-plugin": "2.2.0",
 		"@swup/overlay-theme": "2.0.1",
 		"@swup/preload-plugin": "3.2.10",
 		"@swup/scroll-plugin": "3.3.2",
+		"@swup/slide-theme": "2.0.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.13",
