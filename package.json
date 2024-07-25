@@ -32,7 +32,7 @@
 		"@playform/build": "0.1.2",
 		"@playform/compress": "0.0.13",
 		"@playform/format": "0.0.7",
-		"@playform/inline": "0.0.7",
+		"@playform/inline": "0.1.0",
 		"@swup/body-class-plugin": "3.2.0",
 		"@swup/fade-theme": "2.0.1",
 		"@swup/head-plugin": "2.2.0",
