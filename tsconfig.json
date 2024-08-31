@@ -6,7 +6,12 @@
 		"noEmit": true,
 		"outDir": "Target",
 		"rootDir": ".",
-		"types": ["astro/client", "astro/env"]
+		"types": ["astro/client", "astro/env"],
+		"plugins": [
+			{
+				"name": "@astrojs/ts-plugin"
+			}
+		]
 	},
 	"extends": "@playform/build/tsconfig",
 	"include": ["Source"]
