@@ -35,7 +35,7 @@
 		"@playform/inline": "0.1.0",
 		"@swup/body-class-plugin": "3.2.0",
 		"@swup/fade-theme": "2.0.1",
-		"@swup/head-plugin": "2.2.0",
+		"@swup/head-plugin": "2.2.1",
 		"@swup/overlay-theme": "2.0.1",
 		"@swup/preload-plugin": "3.2.10",
 		"@swup/scroll-plugin": "3.3.2",
