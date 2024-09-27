@@ -57,5 +57,8 @@
 	"publishConfig": {
 		"access": "restricted",
 		"provenance": true
+	},
+	"devDependencies": {
+		"@astrojs/ts-plugin": "1.10.2"
 	}
 }
