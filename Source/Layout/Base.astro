@@ -1,6 +1,9 @@
 ---
 import "@Stylesheet/Base.css";
 
+import { Head } from "astro-capo";
+import { ViewTransitions } from "astro:transitions";
+
 // TODO Place your title and description here
 const { Title = "", Description = "" } = Astro.props;
 
@@ -8,9 +11,6 @@ interface Props {
 	Title?: string;
 	Description?: string;
 }
-
-import { Head } from "astro-capo";
-import { ViewTransitions } from "astro:transitions";
 ---
 
 <!doctype html>
@@ -49,9 +49,7 @@ import { ViewTransitions } from "astro:transitions";
 			@import "@Stylesheet/Global.css";
 		</style>
 
-		<slot name="styles" />
-
-		<slot name="scripts" />
+		<slot name="Head" />
 
 		<!-- Favicon -->
 		<ViewTransitions />
