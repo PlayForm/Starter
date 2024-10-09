@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@astrojs/sitemap": "3.2.0",
 		"@playform/build": "0.1.7",
-		"@playform/compress": "0.1.2",
+		"@playform/compress": "0.1.4",
 		"@playform/format": "0.0.7",
 		"@playform/inline": "0.1.0",
 		"@tailwindcss/aspect-ratio": "0.4.2",
