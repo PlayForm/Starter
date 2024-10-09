@@ -54,11 +54,11 @@
 		"typescript": "5.6.3",
 		"zod": "3.23.8"
 	},
+	"devDependencies": {
+		"@astrojs/ts-plugin": "1.10.2"
+	},
 	"publishConfig": {
 		"access": "restricted",
 		"provenance": true
-	},
-	"devDependencies": {
-		"@astrojs/ts-plugin": "1.10.2"
 	}
 }
