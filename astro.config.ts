@@ -8,6 +8,9 @@ export default (await import("astro/config")).defineConfig({
 	// site: "",
 	compressHTML: true,
 	prefetch: true,
+	build: {
+		concurrency: 9999
+	},
 	integrations: [
 		// @ts-ignore
 		import.meta.env.MODE === "production"
