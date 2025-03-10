@@ -39,7 +39,7 @@
 		"astro": "5.4.2",
 		"astro-capo": "0.0.1",
 		"astrojs-service-worker": "2.0.0",
-		"autoprefixer": "10.4.20",
+		"autoprefixer": "10.4.21",
 		"cssnano": "7.0.6",
 		"cssnano-preset-advanced": "7.0.6",
 		"dotenv": "16.4.7",
