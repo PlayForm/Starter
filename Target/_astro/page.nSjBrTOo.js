@@ -1,1 +1,0 @@
-import{i}from"./index.ftVfT69A.js";i();
