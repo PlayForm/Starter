@@ -1,8 +1,8 @@
 {
-  "../../../../node_modules/.pnpm/astro@5.6.1_@types+node@22._7240574c5f24c053262c5affc2796e17/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts": {
-    "file": "_astro/ClientRouter.astro_astro_type_script_index_0_lang.Ckkjfsvu.js",
+  "../../../../node_modules/.pnpm/astro@5.7.0_@types+node@22._9b6997e7f8f584f13d17c7dd14e1b07a/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts": {
+    "file": "_astro/ClientRouter.astro_astro_type_script_index_0_lang.-4NWorDs.js",
     "name": "ClientRouter.astro_astro_type_script_index_0_lang",
-    "src": "../../../../node_modules/.pnpm/astro@5.6.1_@types+node@22._7240574c5f24c053262c5affc2796e17/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts",
+    "src": "../../../../node_modules/.pnpm/astro@5.7.0_@types+node@22._9b6997e7f8f584f13d17c7dd14e1b07a/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts",
     "isEntry": true,
     "imports": [
       "_index.DSBWf7TZ.js"

@@ -1,8 +1,8 @@
-import type { defineConfig } from "astro/config";
+import { defineConfig } from "astro/config";
 
 export const On = process.env["NODE_ENV"] === "development";
 
-export default (await import("astro/config")).defineConfig({
+export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
@@ -55,7 +55,7 @@ export default (await import("astro/config")).defineConfig({
 							keep_numbers: true,
 							keep_quoted_props: true,
 							max_line_len: 80,
-							preamble: null,
+							preamble: "",
 							ecma: 5,
 							preserve_annotations: true,
 							quote_keys: false,
@@ -113,4 +113,4 @@ export default (await import("astro/config")).defineConfig({
 			},
 		],
 	},
-}) as defineConfig;
+});
