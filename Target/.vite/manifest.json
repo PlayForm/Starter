@@ -1,8 +1,8 @@
 {
-  "../../../../node_modules/.pnpm/astro@5.7.0_@types+node@22._9b6997e7f8f584f13d17c7dd14e1b07a/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts": {
+  "../../../../node_modules/.pnpm/astro@5.7.5_@types+node@22._f199d30c8415693eb742d23d674aef02/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts": {
     "file": "_astro/ClientRouter.astro_astro_type_script_index_0_lang.-4NWorDs.js",
     "name": "ClientRouter.astro_astro_type_script_index_0_lang",
-    "src": "../../../../node_modules/.pnpm/astro@5.7.0_@types+node@22._9b6997e7f8f584f13d17c7dd14e1b07a/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts",
+    "src": "../../../../node_modules/.pnpm/astro@5.7.5_@types+node@22._f199d30c8415693eb742d23d674aef02/node_modules/astro/components/ClientRouter.astro?astro&type=script&index=0&lang.ts",
     "isEntry": true,
     "imports": [
       "_index.DSBWf7TZ.js"
@@ -15,7 +15,7 @@
     "isDynamicEntry": true
   },
   "Source/Layout/Base.astro?astro&type=script&index=0&lang.ts": {
-    "file": "_astro/Base.astro_astro_type_script_index_0_lang.FxhYHUyw.js",
+    "file": "_astro/Base.astro_astro_type_script_index_0_lang.CcG5S-F5.js",
     "name": "Base.astro_astro_type_script_index_0_lang",
     "src": "Source/Layout/Base.astro?astro&type=script&index=0&lang.ts",
     "isEntry": true,
