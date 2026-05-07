@@ -5,7 +5,7 @@
 		"emitDeclarationOnly": false,
 		"noEmit": true,
 		"outDir": "Target",
-		"rootDir": ".",
+		"rootDir": "./Source",
 		"types": ["astro/client", "astro/env"],
 		"plugins": [
 			{
