@@ -3,6 +3,7 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"emitDeclarationOnly": false,
+		"ignoreDeprecations": "6.0",
 		"noEmit": true,
 		"outDir": "Target",
 		"rootDir": ".",
