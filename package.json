@@ -35,19 +35,15 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.11",
 		"@tailwindcss/typography": "0.5.20",
-		"astro": "7.1.3",
+		"astro": "7.1.6",
 		"astro-capo": "0.0.1",
 		"astrojs-service-worker": "2.0.2",
 		"autoprefixer": "10.5.4",
 		"cssnano": "8.0.2",
 		"cssnano-preset-advanced": "8.0.2",
 		"dotenv": "17.4.2",
-		"firebase": "12.16.0",
-<<<<<<< HEAD
-		"postcss": "8.5.22",
-=======
-		"postcss": "8.5.19",
->>>>>>> 5b27776ccf6cc24244486a1f94408b88b2c04b1e
+		"firebase": "12.17.0",
+		"postcss": "8.5.25",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "2.1.0",
 		"postcss-import": "16.1.1",
