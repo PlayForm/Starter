@@ -54,7 +54,7 @@
 		"zod": "4.5.4"
 	},
 	"devDependencies": {
-		"@astrojs/ts-plugin": "1.10.11"
+		"@astrojs/ts-plugin": "1.10.12"
 	},
 	"publishConfig": {
 		"access": "restricted",
