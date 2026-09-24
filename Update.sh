@@ -193,5 +193,6 @@ for Action in "${DiscoveredActions[@]}"; do
 		FAILED=$((FAILED+1))
 	fi
 done
+# shellcheck disable=SC2015
 [ "$FAILED" -eq 0 ] && print_success "Absorb Update.sh complete" || print_error "Absorb Update.sh finished with ${FAILED} unverified action(s)"
 print_status "Update complete"
