@@ -41,7 +41,7 @@
 		"autoprefixer": "10.6.1",
 		"cssnano": "9.0.5",
 		"cssnano-preset-advanced": "9.0.5",
-		"dotenv": "18.0.1",
+		"dotenv": "18.0.2",
 		"firebase": "12.19.0",
 		"postcss": "8.5.28",
 		"postcss-combine-duplicated-selectors": "10.0.3",
