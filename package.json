@@ -42,7 +42,7 @@
 		"cssnano": "9.0.5",
 		"cssnano-preset-advanced": "9.0.5",
 		"dotenv": "18.0.1",
-		"firebase": "12.19.0",
+		"firebase": "13.0.0",
 		"postcss": "8.5.28",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "2.1.0",
