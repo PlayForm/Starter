@@ -1,6 +1,43 @@
+import { dirname, resolve } from "path";
+import { fileURLToPath } from "url";
+
 import { defineConfig } from "astro/config";
 
 export const On = process.env["NODE_ENV"] === "development";
+
+export const Here = dirname(fileURLToPath(import.meta.url));
+
+// The alias table mirrors the `paths` that `@playform/build` defines in its
+// tsconfig. TypeScript and Vite resolve those specifiers on their own, but the
+// CSS `@import` statements are resolved by Vite's stylesheet pipeline, which
+// needs the same table registered as `resolve.alias` or an
+// `@import "@Stylesheet/Global.css"` fails to resolve during the build.
+export const Aliases = Object.fromEntries(
+	[
+		"Asset",
+		"Class",
+		"Component",
+		"Content",
+		"Context",
+		"Element",
+		"Function",
+		"Interface",
+		"Layout",
+		"Library",
+		"Notation",
+		"Option",
+		"Page",
+		"Script",
+		"Stylesheet",
+		"Target",
+		"Test",
+		"Type",
+		"Variable",
+	].map((Folder) => [
+		`@${Folder}`,
+		resolve(Here, "Source", Folder === "Page" ? "pages" : Folder),
+	]),
+);
 
 export default defineConfig({
 	srcDir: "./Source",
@@ -79,6 +116,7 @@ export default defineConfig({
 		},
 		resolve: {
 			preserveSymlinks: false,
+			alias: Aliases,
 		},
 		css: {
 			devSourcemap: true,
